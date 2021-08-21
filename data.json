@@ -1,0 +1,1339 @@
+[
+    {
+        "id": 1,
+        "name": "Coursera",
+        "link": "https://www.coursera.org/for-university-and-college-students",
+        "img": "/coursera.png",
+        "desc": "Coursera is a platform that provides online courses and specializations from top universities like ISB, Michigan, Stanford, and leading companies like Google and IBM. ",
+        "benefit": "Unlimited Guided Projects and 1 free course per year",
+        "tags": [
+            "Learn",
+            "Courses"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Canva",
+        "link": "https://www.canva.com/education/github/",
+        "img": "https://education.github.com/assets/pack/logo-canva-4695343515087af903e1c706818a0e580a84d5648d7fdec4cab6e60f84bc4c4c.jpg",
+        "desc": "With Canva, anyone can create professional looking graphics and designs. Featuring thousands of templates and an easy to use editor.",
+        "benefit": "Free 12 month subscription of Canva's Pro tier.",
+        "tags": [
+            "Virtual Events",
+            "Design",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "DigitalOcean",
+        "link": "https://www.digitalocean.com/github-students/",
+        "img": "https://education.github.com/assets/pack/logo-digitalocean-3d328c1d6619d314d47aab1259c1235b1339c343e12df62a688076bf6ceac866.jpg",
+        "desc": "Simple cloud hosting, built for developers",
+        "benefit": "$100 in platform credit for new users.",
+        "tags": [
+            "Cloud",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "namecheap",
+        "link": "https://nc.me/landing/github",
+        "img": "https://education.github.com/assets/pack/logo-namecheap-7ecd22457a4ee5617490ba4cc16b1c15ee97c7ff87d5c47cea0352f7b87ab2b8.jpg",
+        "desc": "Affordable registration, hosting, and domain management",
+        "benefit": "1 year domain name registration on the .me TLD.",
+        "tags": [
+            "Virtual Events",
+            "Domains",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Microsoft Azure",
+        "link": "https://azure.microsoft.com/en-us/free/students/",
+        "img": "https://education.github.com/assets/pack/logo-microsoft-2ae66d4033f4624cc4d1a9ebebf547a5a30fed4280145e22233d2d5433e43a76.jpg",
+        "desc": "Access to Microsoft Azure cloud services and learning resources ; no credit card required",
+        "benefit": "Free access to 25+ Microsoft Azure cloud services plus $100 in Azure credit.",
+        "tags": [
+            "Virtual Events",
+            "Cloud",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Name.com",
+        "link": "https://www.name.com/partner/github-students",
+        "img": "/name.png",
+        "desc": "Best-in-class domains, email, and hosting",
+        "benefit": "1 free year domain registration, 1 free year Advanced Security (SSL, privacy protection, and more).",
+        "tags": [
+            "Virtual Events",
+            "Domains",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "JETBRAINS",
+        "link": "https://www.jetbrains.com/community/education/",
+        "img": "https://education.github.com/assets/pack/logo-jetbrains-f8afd8b5c788367a5a6cfb33a70a8741be61e0c8b810c374a5d505f1466751a2.jpg",
+        "desc": "Professional desktop IDEs: IntelliJ IDEA, PyCharm, and more.",
+        "benefit": "A free subscription for students, to be renewed annually.",
+        "tags": [
+            "Developer tools",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 8,
+        "name": "educative",
+        "link": "https://www.educative.io/github-students",
+        "img": "https://education.github.com/assets/pack/logo-educative-0ff5bf24988bb845b0e2aa256b2065e5fd1339eb2e566de483a9e0cbc916e96e.jpg",
+        "desc": "Level up on trending coding skills at your own pace with interactive, text-based courses.",
+        "benefit": "Get 6 free months of 60+ courses covering in-demand topics like Web Development, Python, Java, and Machine Learning.",
+        "tags": [
+            "Learn",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 9,
+        "name": "GitHub",
+        "link": "https://education.github.com/benefits?type=student",
+        "img": "https://education.github.com/assets/pack/logo-github-fe55a081ff239877f791f5882f9c3cddc371653c88d9b06f504ea10f453996ed.jpg",
+        "desc": "Powerful collaboration, code review, and code management",
+        "benefit": "Free GitHub Pro while you are a student.",
+        "tags": [
+            "Developer tools",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 10,
+        "name": "datacamp",
+        "link": "https://www.datacamp.com/community/blog/github",
+        "img": "/datacamp.png",
+        "desc": "DataCamp helps companies and individuals make better use of data. Our users build data fluency while learning from the world's top data scientists.",
+        "benefit": "Free 3-month individual subscription for students.",
+        "tags": [
+            "Learn",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Microsoft Office 365",
+        "link": "https://www.microsoft.com/en-in/education/products/office?ms.officeurl=student",
+        "img": "/office365.jpg",
+        "desc": "Office 365 is a cloud-based suite of productivity apps like Outlook, Word, PowerPoint, and more. ",
+        "benefit": "Sign up for Office 365 Education for free, including Word, Excel, PowerPoint, OneNote, and now Microsoft Teams, plus additional classroom tools.",
+        "tags": [
+            "Productivity"
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Bootstrap Studio",
+        "link": "https://bootstrapstudio.io/student-pack",
+        "img": "https://education.github.com/assets/pack/logo-bootstrapstudio-3c452629f5506e9db0fc76bc310be352c105103c6ae8b515de5b11a9bd487adf.jpg",
+        "desc": "Bootstrap Studio is a powerful desktop app for creating responsive websites using the Bootstrap framework.",
+        "benefit": "A free license for Bootstrap Studio while you are a student.",
+        "tags": [
+            "Developer tools",
+            "Design",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 13,
+        "name": "techDOMAINS",
+        "link": "https://get.tech/github-student-developer-pack",
+        "img": "https://education.github.com/assets/pack/logo-tech-b0fa96cc0ae1c9b224a141c9592835e746731caa1bfba0c30893e90678029919.jpg",
+        "desc": "A powerful domain extension to convey that you belong to the technology industry.",
+        "benefit": "One standard .TECH domain free for 1 year and 2 free email accounts with 100 MB free storage",
+        "tags": [
+            "Domains",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Frontend Masters",
+        "link": "https://frontendmasters.com/welcome/github-student-developers/",
+        "img": "https://education.github.com/assets/pack/logo-frontendmasters-46f9f8aa9546a7e8dc3e0edae3d9dbb1df85261d8a4aa0a7dbe4492137e30006.jpg",
+        "desc": "Advance your skills with in-depth JavaScript, Node.js & front-end engineering courses.",
+        "benefit": "Free 6-months access to all courses and workshops.",
+        "tags": [
+            "Learn",
+            "Courses",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 15,
+        "name": "PomoDone",
+        "link": "https://pomodoneapp.com/pomodoro-timer-for-students.html",
+        "img": "https://education.github.com/assets/pack/logo-pomodone-e1b379acd155a955f32c2ccf9f9eea88d65b4d7e67552522e9de2ee16e1fe945.jpg",
+        "desc": "With PomoDone, hack and track your time and boost your productivity by applying Pomodoro technique to your workflow -- eliminate distraction, sharpen focus and prevent burnout.",
+        "benefit": "PomoDone Lite plan free for 2-years.",
+        "tags": [
+            "Productivity",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 16,
+        "name": "One Month",
+        "link": "https://onemonth.com/github/students",
+        "img": "https://education.github.com/assets/pack/logo-onemonth-4793438ffc3971afcd2f20923c5ae170fde2c6b3e44476e240d33072e111ca15.jpg",
+        "desc": "Learn HTML, CSS, JavaScript and Python in just 30 days!",
+        "benefit": "Free 30-day One Month subscription.",
+        "tags": [
+            "Learn",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 17,
+        "name": "iconscout",
+        "link": "https://iconscout.com/github-students",
+        "img": "https://education.github.com/assets/pack/logo-iconscout-ce4182a4c2a361a65498135effa16ac697d2f04805e73ced7c2662788dcbf390.jpg",
+        "desc": "Iconscout is design resources marketplace to get high quality icons, illustrations and stock images.",
+        "benefit": "Download 60 premium icons per month for 1 year.",
+        "tags": [
+            "Design",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 18,
+        "name": "Github CampusExperts",
+        "link": "https://education.github.com/experts",
+        "img": "/githubcampus.jpg",
+        "desc": "GitHub Campus Experts are students who build technical communities on campus, with training and support from GitHub.",
+        "benefit": "Apply to become part of the program while you're a student.",
+        "tags": [
+            "Learn",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 19,
+        "name": "Notion",
+        "link": "https://www.notion.so/product/notion-for-education",
+        "img": "/notion.png",
+        "desc": "Notion is an application that provides components such as notes, databases, kanban boards, wikis, calendars and reminders. ",
+        "benefit": "Organize your personal tasks and notes with Notion’s free Personal Pro plan. Unlimited pages & blocks, file uploads, and version history.",
+        "tags": [
+            "Productivity",
+			"Learn"
+        ]
+    },
+    {
+        "id": 20,
+        "name": "Spotify",
+        "link": "https://www.spotify.com/in-en/student/",
+        "img": "/spotify.png",
+        "desc": "Spotify is the world's largest music and audio streaming platform, with over 365 million monthly active users, ",
+        "benefit": "Unlimited music, podcasts, and more. One-time plans from ₹66 while you’re in school/University.",
+        "tags": [
+            "Entertainment",
+            "Music"
+        ]
+    },
+    {
+        "id": 21,
+        "name": "mongoDB",
+        "link": "https://www.mongodb.com/students",
+        "img": "https://education.github.com/assets/pack/logo-mongodb-378bef5d228e7d10085d96e1f78fcddac24f054c48c7316d72ae75a96120d5f9.jpg",
+        "desc": "A general purpose, document-based, distributed database built for modern application developers and for the cloud era.",
+        "benefit": "$200 in MongoDB Atlas Credits, plus access to MongoDB Compass and MongoDB University including free certification.",
+        "tags": [
+            "Infrastructure & APIs",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 22,
+        "name": "next.tech",
+        "link": "https://next.tech/github-students",
+        "img": "https://education.github.com/assets/pack/logo-nexttech-275def1777a4f276955a9bc7cea96b186e12b98dd4e8908e8d3015ec215be318.jpg",
+        "desc": "Learn tech skills and build software directly from your browser with real, online computing environments.",
+        "benefit": "Free access to all interactive courses and cloud computing environments for 12 months.",
+        "tags": [
+            "Learn",
+            "Developer tools",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 23,
+        "name": "COVALENCE",
+        "link": "https://covalence.io/lp/github-students/",
+        "img": "https://education.github.com/assets/pack/logo-covalence-3cc912bc85f6c094dd6593e162aed6e3b590c57bfe7bfd6981029f33bf7acd00.jpg",
+        "desc": "Join an exclusive developer community and learn Full Stack web-development with no long-term commitments.",
+        "benefit": "Complimentary Front End Fundamentals Course.",
+        "tags": [
+            "Learn",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 24,
+        "name": "ATOM",
+        "link": "https://atom.io/",
+        "img": "https://education.github.com/assets/pack/logo-atom-b2600fd58b4ab395d398afb5af008d2e8596282321ba22f0becbf34383e545dc.jpg",
+        "desc": "A hackable text editor for the 21st Century",
+        "benefit": "Open Source by GitHub, free for everyone.",
+        "tags": [
+            "Developer tools",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 25,
+        "name": "testmail.app",
+        "link": "https://testmail.app/",
+        "img": "https://education.github.com/assets/pack/logo-testmail-b5895796ebb41b794e3d8d0fcd50db88d9f874446f135dd8febafe69c16501fa.jpg",
+        "desc": "Get unlimited email addresses and mailboxes for automating email tests with our powerful APIs.",
+        "benefit": "Free Essential plan while you're a student.",
+        "tags": [
+            "Developer tools",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 26,
+        "name": "New Relic",
+        "link": "https://developer.newrelic.com/students/",
+        "img": "/newrelic.jpg",
+        "desc": "New Relic is an observability platform that helps fully understand how to improve your software.",
+        "benefit": "Free New Relic while you are a student. ($300/month value)",
+        "tags": [
+            "Cloud",
+            "Developer tools",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 27,
+        "name": "Twillio",
+        "link": "https://www.twilio.com/quest/github-education",
+        "img": "/twillio.jpg",
+        "desc": "Twilio is a developer platform for communications. Software teams use Twilio APIs to add capabilities like voice, video, and messaging to their applications.",
+        "benefit": "$50 in Twilio API credits and exclusive in-game items in TwilioQuest.",
+        "tags": [
+            "Infrastructure & APIs",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 28,
+        "name": "PoIypane",
+        "link": "https://polypane.app/github-students/",
+        "img": "https://education.github.com/assets/pack/logo-polypane-8b91f190af98d332d4d90edce7fd9eaccd25c682c0d5c63799f457e3f98c9277.jpg",
+        "desc": "A powerful browser and developer tool that lets developers and designers make better websites and web apps in less time.",
+        "benefit": "Polypane free for 1 year.",
+        "tags": [
+            "Developer tools",
+            "Design",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 29,
+        "name": "repl.it",
+        "link": "https://replit.com/site/github-students",
+        "img": "https://education.github.com/assets/pack/logo-replit-421a56b9b68f899d1e1a0bda608c5af9f3b3d48589140d791fd774809bc1d914.jpg",
+        "desc": "An online IDE that lets you instantly code in over fifty languages. Start learning, building, collaborating and hosting all in one place.",
+        "benefit": "Hacker plan, includes unlimited private repls and multiplayer invites. Free for three months.",
+        "tags": [
+            "Learn",
+            "Developer tools",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 30,
+        "name": "Typeform",
+        "link": "https://product.typeform.com/github/",
+        "img": "https://education.github.com/assets/pack/logo-typeform-55cc067a7c4d306a609e3c9fa5873a76d5a1d7e756f8ea8b61190d66a5c2dbf2.jpg",
+        "desc": "Interactive forms, surveys & quizzes to engage and grow your audience",
+        "benefit": "Free professional plan for 1 year.",
+        "tags": [
+            "Marketing",
+            "Design",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 31,
+        "name": "Google Drive",
+        "link": "https://edu.google.com/products/workspace-for-education/education-fundamentals/",
+        "img": "/googledrive.png",
+        "desc": "Google Drive is a cloud file storage and synchronization service developed by Google.",
+        "benefit": "Unlimited amount of storage on Google Drive for free. ",
+        "tags": [
+            "Productivity",
+            "Cloud"
+        ]
+    },
+    {
+        "id": 32,
+        "name": "GitKraken",
+        "link": "https://www.gitkraken.com/github-student-developer-pack",
+        "img": "https://education.github.com/assets/pack/logo-gitkraken-97c0c2dd3d7b2ea11dbf7b258b6fac1868bb3b64d640dd0322d89b64354eb37b.jpg",
+        "desc": "GitKraken Pro Suite: cross-platform Git GUI, Kanban Boards for issue/task tracking, and Timelines for project planning.",
+        "benefit": "Access to Pro versions of GitKraken Git GUI, GitKraken Boards and GitKraken Timelines while you're a student.",
+        "tags": [
+            "Developer tools",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 33,
+        "name": "ICONS8",
+        "link": "https://iconscout.com/github-students",
+        "img": "https://education.github.com/assets/pack/logo-icons8-5076338eaef2812dfe4862c9f0db77c583f2c27b6a1c75ff051c69f6a18bf2d9.jpg",
+        "desc": "Icons8 provides design resources: icons, UI illustrations, photos and software to class up your projects.",
+        "benefit": "3-month All Access subscription with icons, photos, illustrations, and music.",
+        "tags": [
+            "Design",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 34,
+        "name": "stripe",
+        "link": "https://stripe.com/en-in",
+        "img": "https://education.github.com/assets/pack/logo-stripe-237d6b07f39b984f738aa58a92c9cb3c4a46856088cd344292db6172fd2ca74f.jpg",
+        "desc": "Web and mobile payments, built for developers",
+        "benefit": "Waived transaction fees on first $1000 in revenue processed.",
+        "tags": [
+            "Infrastructure & APIs",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 35,
+        "name": "Interview Cake",
+        "link": "https://www.interviewcake.com/github-students",
+        "img": "https://education.github.com/assets/pack/logo-interviewcake-cc858b1c9c298d1fb459312b00c7bdf5f97ed12c2402f247a7e9ffe4ac579473.jpg",
+        "desc": "Interview Cake makes coding interviews a piece of cake with practice questions, data structures and algorithms reference pages, cheat sheets, and more.",
+        "benefit": "Access to the full coding interview prep course for 3 weeks.",
+        "tags": [
+            "Learn",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 36,
+        "name": "pageclip",
+        "link": "https://pageclip.co/github-students",
+        "img": "https://education.github.com/assets/pack/logo-pageclip-12d56d44afa7367feefe5f93ed94e06ae0b54c72306496bb9e4255b949f1c461.jpg",
+        "desc": "A server for your static websites and HTML forms.",
+        "benefit": "Free basic plan while you are a student.",
+        "tags": [
+            "Infrastructure & APIs",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 37,
+        "name": "HazeOver",
+        "link": "https://hazeover.com/github-students.html",
+        "img": "https://education.github.com/assets/pack/logo-hazeover-f4e5bf5d97749160ff3a44d3a56d05bcf70c8288b602ab031541e556936dcd2d.jpg",
+        "desc": "Get focused while working on your projects or studying with HazeOver for Mac.",
+        "benefit": "Free app license, including minor updates.",
+        "tags": [
+            "Productivity",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 38,
+        "name": "ARDUINOEDUCATION",
+        "link": "https://www.arduino.cc/education/github-students",
+        "img": "https://education.github.com/assets/pack/logo-arduino-9326bf0e1f42f29a4db15f818395ed0ce4403eca73295bb06a3865e553be995d.jpg",
+        "desc": "Empower scientists and artists of the future with creative STEM programs.",
+        "benefit": "Free Arduino Create Maker plan for 6 months and discounts on selected hardware.",
+        "tags": [
+            "Infrastructure & APIs",
+            "Internet of Things",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 39,
+        "name": "GO RAILS",
+        "link": "https://gorails.com/github-students",
+        "img": "https://education.github.com/assets/pack/logo-gorails-3a4611966723d05824f5e966e608c3805fa285a05560b9fc2826ccbcf3a25f0e.jpg",
+        "desc": "Tutorials for web developers learning Ruby, Rails, Javascript, Turbolinks, Stimulus.js, Vue.js, and more.",
+        "benefit": "Free access to all videos and lessons for 12 months.",
+        "tags": [
+            "Learn",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 40,
+        "name": "GitHub",
+        "link": "https://github.com",
+        "img": "https://education.github.com/assets/pack/logo-ghdesktop-40ea908c1b55fd3e6356874e76bca24d5d0877001f4fdff29f34c02eacc35a9e.jpg",
+        "desc": "Reduces frustration and makes Git and GitHub workflows more approachable.",
+        "benefit": "Open Source by GitHub, free for everyone.",
+        "tags": [
+            "Developer tools",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 41,
+        "name": "kodika.io",
+        "link": "https://kodika.io/github-student-pack/",
+        "img": "https://education.github.com/assets/pack/logo-kodika-a4a27ba95c73a423eec3f7d7801849d8a16542a0209858a226212ef0faf4ecff.jpg",
+        "desc": "Build iOS applications with drag & drop.",
+        "benefit": "Kodika Unlimited Pro subscription free for 6 months.",
+        "tags": [
+            "Mobile",
+            "Developer tools",
+            "Design",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 42,
+        "name": "THINKFUL",
+        "link": "https://www.thinkful.com/github-student-developer-pack/",
+        "img": "https://education.github.com/assets/pack/logo-thinkful-5729d69105c1b552a9750da30157674bcc5f8513c42cb400ae3bf76c4f246cbc.jpg",
+        "desc": "Learn Fundamentals of Web Development to launch your career as a developer",
+        "benefit": "1 month of access to a web development course.",
+        "tags": [
+            "Learn",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 43,
+        "name": "DATADOG",
+        "link": "https://www.datadoghq.com/blog/datadog-github-student-developer-pack/",
+        "img": "https://education.github.com/assets/pack/logo-datadog-cf0a919b6a0d96b858ba497851bc8ceb4b5997e668054818700dc44a517c057d.jpg",
+        "desc": "Cloud-based infrastructure monitoring.",
+        "benefit": "Pro Account, including 10 servers. Free for 2 years.",
+        "tags": [
+            "Security & analytics",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 44,
+        "name": "IMGBoT",
+        "link": "https://imgbot.net/github-students/",
+        "img": "https://education.github.com/assets/pack/logo-imgbot-d00715ac3afa892734f37311d54dfeaafd5edd52604916cf5adc11fa47d0489b.jpg",
+        "desc": "Imgbot is a GitHub App that automatically optimizes your images.",
+        "benefit": "Free image optimization for all your public and private projects while you are a student.",
+        "tags": [
+            "Infrastructure & APIs",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 45,
+        "name": "FLATIRONSCHOOL",
+        "link": "https://flatironschool.com/blog/flatiron-schools-community-powered-bootcamp-joins-github-student-developer-pack/",
+        "img": "https://education.github.com/assets/pack/logo-flatiron-b010e6f60ebb71734f9b11a3058cfb7480ecb3d262fbc48fe63b7dc8e44a69cd.jpg",
+        "desc": "Learn Web Development from the premier coding bootcamp for launching developers.",
+        "benefit": "Free one-month membership to Community-Powered Bootcamp.",
+        "tags": [
+            "Learn",
+            "Courses",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 46,
+        "name": "POPSQL",
+        "link": "https://popsql.com/github-students",
+        "img": "https://education.github.com/assets/pack/logo-popsql-267b34f70ea30ebc5c03cafea1314a35b096fba965870b7def75a63234dfc775.jpg",
+        "desc": "Modern, collaborative SQL editor for your team ; write queries, visualize data, and share your results.",
+        "benefit": "Free Premium subscription for PopSQL while you're a student.",
+        "tags": [
+            "Developer tools",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 47,
+        "name": "mailgun",
+        "link": "https://www.mailgun.com/github-students/",
+        "img": "/mailgun.png",
+        "desc": "Powerful APIs that enable you to send, receive and track email effortlessly.",
+        "benefit": "20,000 free emails and 100 free email validations each month for up to 12 months.",
+        "tags": [
+            "Infrastructure & APIs",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 48,
+        "name": "Gitpod",
+        "link": "https://www.gitpod.io/github-student-developer-pack",
+        "img": "https://education.github.com/assets/pack/logo-gitpod-1eb786c3c9b8714dee45d5cd66f619b1d70f617161bbb38b0c4c845ab93196ec.jpg",
+        "desc": "An online IDE for GitHub that provides a complete dev environment with a single click.",
+        "benefit": "Free personal plan subscription for six months for students.",
+        "tags": [
+            "Learn",
+            "Developer tools",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 49,
+        "name": "CRYPTOLENS",
+        "link": "https://app.cryptolens.io/user/githubstudent",
+        "img": "https://education.github.com/assets/pack/logo-cryptolens-e4b8d2d8a685beb9aa43a8fe750d21aabe3770f567d7a8b02d321d118f7ecfcc.jpg",
+        "desc": "License and sell your software securely.",
+        "benefit": "10 licenses and any number of end-users for free for students.",
+        "tags": [
+            "Infrastructure & APIs",
+            "Developer tools",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 50,
+        "name": "deepsource",
+        "link": "https://deepsource.io/gh-education/",
+        "img": "https://education.github.com/assets/pack/logo-deepsource-715d9df83f5fc58b244ee741d238e65960bb2bf3d61b206464cf71f0e8b56aaf.jpg",
+        "desc": "Static code analyzer for Python and Go. Detect bug risks, anti-patterns and security vulnerabilities.",
+        "benefit": "Free Pro subscription for students.",
+        "tags": [
+            "Developer tools",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 51,
+        "name": "DASHLANE",
+        "link": "https://www.dashlane.com/",
+        "img": "https://education.github.com/assets/pack/logo-dashlane-e80074d029617d44a582a025920ee082b73fc94e5ae6295f00f011964fd90832.jpg",
+        "desc": "Cloud-based password manager.",
+        "benefit": "Dashlane Premium free for 6 months.",
+        "tags": [
+            "Productivity",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 52,
+        "name": "BrowserStack",
+        "link": "https://www.browserstack.com/github-students",
+        "img": "https://education.github.com/assets/pack/logo-browserstack-3eab3594be4637f085deb6e8c9606635102a7f5f1f6eb678f7fb73e7e1c941f2.jpg",
+        "desc": "Test your web apps with BrowserStack's Real Device Cloud, which gives you instant access to 2000+ browsers and real iOS and Android devices.",
+        "benefit": "Free Automate Mobile Plan for 1 parallel and 1 user for 1 year.",
+        "tags": [
+            "Developer tools",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 53,
+        "name": "Freshpaint",
+        "link": "https://www.freshpaint.io/students",
+        "img": "https://education.github.com/assets/pack/logo-freshpaint-94afc9a6f0ecfc4245223e3cdcd28cf0296bb3a32d4f43da11d0eee3fe23874c.jpg",
+        "desc": "Integrate your marketing and analytics tools with one click.",
+        "benefit": "Free Freshpaint Growth Plan while you are a student.",
+        "tags": [
+            "Infrastructure & APIs",
+            "Marketing",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 54,
+        "name": "Working Copy",
+        "link": "https://workingcopy.app/education/",
+        "img": "https://education.github.com/assets/pack/logo-workingcopy-23a688762e1b60042dfc007c15fb0899857f67497e9c5faa031d28a4b878f354.jpg",
+        "desc": "Powerful Git client for iPhone & iPad.",
+        "benefit": "All Pro features for free while you are a student.",
+        "tags": [
+            "Mobile",
+            "Developer tools",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 55,
+        "name": "SENTRY",
+        "link": "https://sentry.io/for/education/",
+        "img": "https://education.github.com/assets/pack/logo-sentry-d34ca8315062bbf7780dd021a35cee6bdf69873ff624454e6a6a5f7d4ec5c7ea.jpg",
+        "desc": "Track errors in every language, framework, and library.",
+        "benefit": "500,000 events/month with unlimited projects and members while you're a student.",
+        "tags": [
+            "Developer tools",
+            "Infrastructure & APIs",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 56,
+        "name": "XOJO",
+        "link": "https://www.xojo.com/githubstudent/",
+        "img": "https://education.github.com/assets/pack/logo-xojo-0e993ca1f1466e0de78883bc5f68d6d2376250ef8f5a025dd03ea6b003229c12.jpg",
+        "desc": "A cross-platform development tool for making native apps for the Desktop.",
+        "benefit": "Xojo Desktop license free while you are a student.",
+        "tags": [
+            "Developer tools",
+            "Design",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 57,
+        "name": "adafruit",
+        "link": "https://www.adafruit.com/github-students",
+        "img": "https://education.github.com/assets/pack/logo-adafruit-2ec09c848ff58995340637f80d0e6ad347b09d3b0b5aa3da0a742b7d50819049.jpg",
+        "desc": "Adafruit is an open-source hardware and open-source educational electronics company based in NYC, USA.",
+        "benefit": "One year of Adafruit IO+ and discounts on selected hardware.",
+        "tags": [
+            "Infrastructure & APIs",
+            "Internet of Things",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 58,
+        "name": "Neve",
+        "link": "https://themeisle.com/github-students/",
+        "img": "https://education.github.com/assets/pack/logo-themeisle-7f83f8813152327174e4339c686e405ebc393acd9ecbe32714e3038c83a7d640.jpg",
+        "desc": "Neve's mobile-first approach, compatibility with AMP and popular page-builders makes website building accessible for everyone.",
+        "benefit": "Free year of Neve Agency WordPress theme exclusively for students.",
+        "tags": [
+            "Infrastructure & APIs",
+            "Design",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 59,
+        "name": "blackfire.io",
+        "link": "https://www.blackfire.io/students",
+        "img": "https://education.github.com/assets/pack/logo-blackfire-6aa560f98122649cfadc566e706cb9f8221d6cc4fd0adc67ef61fc703ed91505.jpg",
+        "desc": "Code performance measurement tool. Find & fix bottlenecks.",
+        "benefit": "Free Profiler subscription for students and teachers.",
+        "tags": [
+            "Security & analytics",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 60,
+        "name": "Travis Cl",
+        "link": "https://blog.travis-ci.com/2014-10-07-free-builds-for-students-github-student-developer-pack",
+        "img": "https://education.github.com/assets/pack/logo-travis-e2f839c66f8d7138d47843053872935cee7c534f3750421f2c19e483fb75f040.jpg",
+        "desc": "Continuous integration platform for open source and private projects",
+        "benefit": "Private builds for free while you're a student.",
+        "tags": [
+            "Infrastructure & APIs",
+            "Developer tools",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 61,
+        "name": "Zyte",
+        "link": "https://www.zyte.com/scrapy-cloud-student-backpack/",
+        "img": "/zyte.png",
+        "desc": "Zyte's Scrapy Cloud is a battle-tested cloud platform for running web crawlers. Manage and automate your web spiders at scale.",
+        "benefit": "1 Free Forever Scrapy Cloud Unit - unlimited team members, projects or requests. Unlimited crawl time and 120 day data retention.",
+        "tags": [
+            "Developer tools",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 62,
+        "name": "DailyBot",
+        "link": "https://www.dailybot.com/flows/github-students",
+        "img": "https://education.github.com/assets/pack/logo-dailybot-7a097b14b61e6be0d0e586ff3948ce9433d362a011a14a3c7232f56620e61a69.jpg",
+        "desc": "Automate daily stand-ups, follow-ups, retrospectives, surveys and feedback for your team.",
+        "benefit": "DailyBot Business plan free for 10 users for 6 months.",
+        "tags": [
+            "Productivity",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 63,
+        "name": "Simple Analytics",
+        "link": "https://simpleanalytics.com/students",
+        "img": "https://education.github.com/assets/pack/logo-simpleanalytics-c8f4bfbc16a694c67685b2f01f9b614475fdb85222644d6990924284a3a56286.jpg",
+        "desc": "Privacy-friendly analytics with a simple interface and API.",
+        "benefit": "Starter plan free for one year, including 100k page views per month.",
+        "tags": [
+            "Marketing",
+            "Infrastructure & APIs",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 64,
+        "name": "Drovio",
+        "link": "https://www.drovio.com/github-students",
+        "img": "/drovio.png",
+        "desc": "Remote pair programming and team collaboration tool.",
+        "benefit": "Free Standard subscription while you're a student, to be renewed every 6 months.",
+        "tags": [
+            "Developer tools",
+            "Productivity",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 65,
+        "name": "Customerly",
+        "link": "https://www.customerly.io/",
+        "img": "https://education.github.com/assets/pack/logo-customerly-697a2e08cf2dd49ebc7bc428d54785feca4d80d6e9903da23231fd7dd9149362.jpg",
+        "desc": "Live chat, behavioural funnels, newsletters, and in-app surveys for SaaS.",
+        "benefit": "Customerly Pro free for 6 months.",
+        "tags": [
+            "Marketing",
+            "Infrastructure & APIs",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 66,
+        "name": "Git TOWER",
+        "link": "https://www.git-tower.com/students/github",
+        "img": "https://education.github.com/assets/pack/logo-tower-59b3aa17bd8519e8d035d161b618d721fa1c915601b3b0339565d7f4d5876c74.jpg",
+        "desc": "The Git client that brings all of Git and GitHub's power to the desktop, for Mac and Windows.",
+        "benefit": "Free Pro account for 1 year. ",
+        "tags": [
+            "Developer tools",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 67,
+        "name": "BLOCKCHAIR",
+        "link": "https://blockchair.com/student-pack",
+        "img": "https://education.github.com/assets/pack/logo-blockchair-514559da94330577a646e78ca35c95fd48d4d9d9ed297ca8553cfb0bc8251510.jpg",
+        "desc": "Connect to the world of blockchains through Blockchair's professional APIs  supports most major cryptocurrencies.",
+        "benefit": "100,000 free requests.",
+        "tags": [
+            "Infrastructure & APIs",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 68,
+        "name": "Codecov",
+        "link": "https://about.codecov.io/for/education/",
+        "img": "https://education.github.com/assets/pack/logo-codecov-ab4d326cea5adef2c00f5e6e588ecc7f2b60a89df229a18766ee2f5dd4cf0e3c.jpg",
+        "desc": "Codecov makes it easy to implement code coverage to develop healthier code",
+        "benefit": "Free access to Codecov on public and private repositories.",
+        "tags": [
+            "Developer tools",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 69,
+        "name": "CART",
+        "link": "https://carto.com/help/getting-started/student-accounts/",
+        "img": "https://education.github.com/assets/pack/logo-cartodb-5e3e0e113168e937bbb78dbd6d163a118e44d540a142ce936e5b50169105b632.jpg",
+        "desc": "An open and powerful platform for spatial data analysis, visualization, and application creation.",
+        "benefit": "Free account upgrades with increased database storage, real time data, Location Data Services Credits, and premium features for 2 years.",
+        "tags": [
+            "Infrastructure & APIs",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 70,
+        "name": "KALTURA",
+        "link": "https://corp.kaltura.com/blog/video-for-student-developers-joining-the-github-student-developer-pack/",
+        "img": "https://education.github.com/assets/pack/logo-kaltura-4c07dd8b1d10f46047d19ab83bc72c2bd3b780efc7b4f0d843ad72433176830c.jpg",
+        "desc": "Kaltura VPaaS simplifies building smart, interactive VOD, Live and real-time video experiences and apps at global scale",
+        "benefit": "$10K/year in Kaltura VPaaS credits while you are a student.",
+        "tags": [
+            "Infrastructure & APIs",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 71,
+        "name": "BETTER CODE HUB",
+        "link": "https://bettercodehub.com/github-student-developer-pack",
+        "img": "https://education.github.com/assets/pack/logo-bettercodehub-8c6a3ca6b12e3c9f1c4719a92005572d9b9006cde83784b48ad93f2ea0fe5771.jpg",
+        "desc": "Better Code Hub provides a definition of done for code quality and actionable refactoring feedback for every push and pull request.",
+        "benefit": "A free upgrade to an Individual license to analyse your personal private repos.",
+        "tags": [
+            "Developer tools",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 72,
+        "name": "vaadin",
+        "link": "https://vaadin.com/student-program",
+        "img": "https://education.github.com/assets/pack/logo-vaadin-2922be7f0ac602b642d31e425173f2315a84925d4729f4f8160af775cda8cc7c.jpg",
+        "desc": "Best open source Java framework for building Progressive Web Applications.",
+        "benefit": "Free Pro subscription license to access the commercial components and tools.",
+        "tags": [
+            "Infrastructure & APIs",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 73,
+        "name": "LingoHub",
+        "link": "https://lingohub.com/github-students",
+        "img": "https://education.github.com/assets/pack/logo-lingohub-f1505907e8dcb4b3ba439139a18a6da7bbcf03b825048f7a602e3e3ff9cd18ec.jpg",
+        "desc": "Translation management service for web, desktop and mobile apps.",
+        "benefit": "Free Professional Plan containing 10,000 text segments for students.",
+        "tags": [
+            "Productivity",
+            "Infrastructure & APIs",
+            "Developer tools",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 74,
+        "name": "CodeScene",
+        "link": "https://codescene.io/github-students",
+        "img": "https://education.github.com/assets/pack/logo-codescene-4dc2abaa79ec75375cd206cac21eb3aa5f51a9fa8e5bb82f5266fd4b13438109.jpg",
+        "desc": "A powerful visualization tool that uses Predictive Analytics to identify social patterns in your code, detect delivery risks and manage technical debt.",
+        "benefit": "A free Student account to analyze private GitHub repositories.",
+        "tags": [
+            "Security & analytics",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 75,
+        "name": "LAMBDATEST",
+        "link": "https://www.lambdatest.com/github-students",
+        "img": "https://education.github.com/assets/pack/logo-lambdatest-e8186523e6cbf6c94ca2d237a8cdc241be45717a74d148e26b74d3b1d9630291.jpg",
+        "desc": "Perform automated and live interactive cross browser testing on 2000+ real browsers and operating systems online.",
+        "benefit": "Free LambdaTest Live Plan for one year.",
+        "tags": [
+            "Developer tools",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 76,
+        "name": "CONFIGCAT",
+        "link": "https://configcat.com/student/",
+        "img": "https://education.github.com/assets/pack/logo-configcat-f41be3725b8f3e444154173f701114eb2e47fc939e69b0ffa7dcfdabf31babb5.jpg",
+        "desc": "Learn feature flags with the industry leading feature flag service.",
+        "benefit": "1000 feature flags, users for free.",
+        "tags": [
+            "Infrastructure & APIs",
+            "Developer tools",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 77,
+        "name": "PushBots",
+        "link": "https://pushbots.com/for/education/",
+        "img": "https://education.github.com/assets/pack/logo-pushbots-002f1a79864959f98e326500b90f67b9902350ac07a8bba76b1f11426d175aba.jpg",
+        "desc": "The easiest way to engage your mobile & web app users via push notifications.",
+        "benefit": "Free Premium account for 6 months.",
+        "tags": [
+            "Infrastructure & APIs",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 78,
+        "name": "SymfonyCasts",
+        "link": "https://symfonycasts.com/",
+        "img": "https://education.github.com/assets/pack/logo-symfonycasts-275eeaf13b17d2b12f32480aeba3ffb0f5040e81b3b983d72931e1c005d53307.jpg",
+        "desc": "Master Symfony and PHP with video tutorials and code challenges.",
+        "benefit": "Free 3-month subscription for students.",
+        "tags": [
+            "Learn",
+            "Courses",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 79,
+        "name": "DeepScan",
+        "link": "https://deepscan.io/github-student-pack",
+        "img": "https://education.github.com/assets/pack/logo-deepscan-8697f86df0b019b7a4652625701998e9ca2b72457d6e338febb663c4d528853e.jpg",
+        "desc": "DeepScan is a platform for building better and more reliable JavaScript apps.",
+        "benefit": "Free 6-month trial while you are a student.",
+        "tags": [
+            "Developer tools",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 80,
+        "name": "WEGLOT",
+        "link": "https://weglot.com/github-students/",
+        "img": "https://education.github.com/assets/pack/logo-weglot-b5d3a66764414ca48711d3c001b013c927c3db86fc1d88c06dbed738f5860837.jpg",
+        "desc": "Make any website multilingual and manage your translations through a single platform.",
+        "benefit": "Free 1-year Pro Plan giving you access to unlimited languages + up to 200k translated words.",
+        "tags": [
+            "Infrastructure & APIs",
+            "Developer tools",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 81,
+        "name": "Restyled",
+        "link": "https://restyled.io/github-students",
+        "img": "https://education.github.com/assets/pack/logo-restyled-e81aa2a2149e53b16494e10ac4fa3738f9f24bbee01d0b1e0274a9f3f64c2daf.jpg",
+        "desc": "With Restyled, automatically re-format Pull Requests to have consistent style.",
+        "benefit": "Run Restyled for free on private repositories while you're a student.",
+        "tags": [
+            "Developer tools",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 82,
+        "name": "SQLGATE",
+        "link": "https://www.sqlgate.com/student-pack",
+        "img": "https://education.github.com/assets/pack/logo-sqlgate-f82fc22b71d9bb612a942c06340801c2412b56f2a692d2112ad7f5ecdbe9cd2d.jpg",
+        "desc": "Simple but powerful IDE for multiple SQL databases.",
+        "benefit": "Access to most Standard Subscription features for 1 year.",
+        "tags": [
+            "Developer tools",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 83,
+        "name": "YAKINDU",
+        "link": "https://info.itemis.com/en/yakindu/state-machine/github-pack",
+        "img": "https://education.github.com/assets/pack/logo-yakindu-c1ab94ebc84a0be54833817568278048cedd6cf11a3e5b235231eff527399921.jpg",
+        "desc": "An integrated modelling environment for the specification and development of reactive, event-driven systems based on the concept of state machines.",
+        "benefit": "Yakindu Professional Edition free for 1 year.",
+        "tags": [
+            "Learn",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 84,
+        "name": "Honeybadger.io",
+        "link": "https://www.honeybadger.io/blog/honeybadger-has-joined-forces-with-github-student-developer-pack/",
+        "img": "https://education.github.com/assets/pack/logo-honeybadger-287f631fbf925a4dd7a57300fa5d6adce21306d2107a308fb3b5d076805c0a93.jpg",
+        "desc": "The web developer's secret weapon: exception, uptime, and cron monitoring that's so awesome, you'll wish your site had more errors.",
+        "benefit": "Free Small account for 1 year.",
+        "tags": [
+            "Security & analytics",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 85,
+        "name": "POEditor",
+        "link": "https://poeditor.com/register/github_education",
+        "img": "https://education.github.com/assets/pack/logo-poeditor-32ecccedfae37c005244943927ac49dec7d9e96658b0c8db889761b92c0fc44a.jpg",
+        "desc": "POEditor is a highly scalable localization management platform for teams.",
+        "benefit": "Plus Plan for free for one year.",
+        "tags": [
+            "Infrastructure & APIs",
+            "Developer tools",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 86,
+        "name": "baremetrics",
+        "link": "https://baremetrics.com/github-students",
+        "img": "https://education.github.com/assets/pack/logo-baremetrics-a0f78e9a8ce5e677cec024c73aa4a26c9ea55a86e3cd1ee2ff67eeef8bb95542.jpg",
+        "desc": "Metrics, dunning, and engagement tools for SaaS & subscription businesses.",
+        "benefit": "Get Baremetrics for free up to $2.5k Monthly Recurring Revenue while you are a student.",
+        "tags": [
+            "Marketing",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 87,
+        "name": "SOFY",
+        "link": "https://info.sofy.ai/github-students",
+        "img": "https://education.github.com/assets/pack/logo-sofy-6b74fbd9b1f8416a37023ca82e3c9512af65f01fd56f133afe9b221284b0eb95.jpg",
+        "desc": "SOFY automates your software testing, uses machine learning to create tests, suggests test scenarios based on product changes, customer usage data and runs at scale.",
+        "benefit": "6 months of free website and mobile app testing.",
+        "tags": [
+            "Mobile",
+            "Developer tools",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 88,
+        "name": "EverSQL",
+        "link": "https://www.eversql.com/github-students/",
+        "img": "https://education.github.com/assets/pack/logo-eversql-6d830bdd7a9f92b514d5eab831350f877113a7360cc6758a98a16839420dc050.jpg",
+        "desc": "Boost your database performance by automatically optimizing your SQL queries.",
+        "benefit": "Free 6-month subscription to the Basic plan.",
+        "tags": [
+            "Developer tools",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 89,
+        "name": "algolia",
+        "link": "https://www.algolia.com/blog/algolia/github-student-developer-pack/",
+        "img": "https://education.github.com/assets/pack/logo-algolia-93727ac746868a30573a7d099a3539c097a436262c7f34dbf3bbc952cc08910a.jpg",
+        "desc": "Hosted search API that provides support from front end to back end frameworks and libraries.",
+        "benefit": "100k records and 1 million operations, valid for 1 year.",
+        "tags": [
+            "Infrastructure & APIs",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 90,
+        "name": "astra",
+        "link": "https://www.getastra.com/github-student-developer-pack",
+        "img": "https://education.github.com/assets/pack/logo-astra-e5218c3ccb868363497462d93468b2b961fb572891878ed2a2dfc888a920c131.jpg",
+        "desc": "Security suite for your website - firewall, malware scanner & managed bug bounty platform.",
+        "benefit": "6 month access to website firewall & malware scanner",
+        "tags": [
+            "Security & analytics",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 91,
+        "name": "Transloadit",
+        "link": "https://transloadit.com/github-students/",
+        "img": "https://education.github.com/assets/pack/logo-transloadit-7f6fb5b3875a528ddd6e05bf28a8f3a0815f2070d415e4797178a6b46afb38a4.jpg",
+        "desc": "A versatile uploading & encoding API to automate any file conversion.",
+        "benefit": "The Startup plan for free, including 10GB of encoding credit.",
+        "tags": [
+            "Developer tools",
+            "Infrastructure & APIs",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 92,
+        "name": "RAYGUN",
+        "link": "https://raygun.com/",
+        "img": "https://education.github.com/assets/pack/logo-raygun-eb2645befc72e9d93b31f5f0bf28ebc8da1251229af8b90dacb317e76ac99367.jpg",
+        "desc": "Error, crash and performance monitoring for web and mobile apps.",
+        "benefit": "Startup Platform plan, free for one year.",
+        "tags": [
+            "Security & analytics",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 93,
+        "name": "Sider",
+        "link": "https://sider.review/github-student",
+        "img": "https://education.github.com/assets/pack/logo-sider-634148bc1348550d5037b723ce5a7dbaf2d40dc87571fd2e0d97675b0516538a.jpg",
+        "desc": "Maximize your engineering team's productivity by automatically analyzing every pull request.",
+        "benefit": "Sider Standard Plan free while you are a student.",
+        "tags": [
+            "Developer tools",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 94,
+        "name": "AccessLint",
+        "link": "https://accesslint.com/",
+        "img": "https://education.github.com/assets/pack/logo-accesslint-dbf3ba0f74c23c167a1acbe437a3c1bc032d2a069111ded7410f8d6069776607.jpg",
+        "desc": "AccessLint brings automated web accessibility testing into your development workflow.",
+        "benefit": "Unlimited use for public and private repositories while you are a student.",
+        "tags": [
+            "Developer tools",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 95,
+        "name": "Wisej",
+        "link": "https://wisej.com/github-studentpack/",
+        "img": "https://education.github.com/assets/pack/logo-wisej-e770fb3c40c8a75442769ee5b0b0c0b141ff761040a3e5ead047a52ae84e1a90.jpg",
+        "desc": "Build powerful web applications in Visual Studio with C# or VB.NET.",
+        "benefit": "Free Wisej Developer license plus free updates for a year.",
+        "tags": [
+            "Infrastructure & APIs",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 96,
+        "name": "NetLicensing by Labs64",
+        "link": "https://netlicensing.io/github-students/",
+        "img": "https://education.github.com/assets/pack/logo-netlicensing-1f86b8d843c85b243b2bb7ce12525de8dc68afd64f29d5bfdd84f21dd6bada56.jpg",
+        "desc": "A cost-effective and integrated Licensing-as-a-Service (LaaS) solution for your software on any platform from Desktop to IoT and SaaS.",
+        "benefit": "Basic Plan for free while you are a student.",
+        "tags": [
+            "Infrastructure & APIs",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 97,
+        "name": "appfigures",
+        "link": "https://appfigures.com/landing/github-student",
+        "img": "https://education.github.com/assets/pack/logo-appfigures-6b1965fb78304620fd5efbcc106accbd806e4654d702f0a26000cfff898918f8.jpg",
+        "desc": "App Store analytics, optimization, and intelligence.",
+        "benefit": "Free access to the Grow plan for 1 year.",
+        "tags": [
+            "Marketing",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 98,
+        "name": "crowdin",
+        "link": "https://crowdin.com/page/github-students",
+        "img": "https://education.github.com/assets/pack/logo-crowdin-b7cc74faa08453950d8f5dc2f2929045f9990f24dd27e7e0631bbf55651d7f36.jpg",
+        "desc": "Crowdin is a cloud-based solution that streamlines localization management.",
+        "benefit": "Bronze plan for 1 year.",
+        "tags": [
+            "Productivity",
+            "Infrastructure & APIs",
+            "Developer tools",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 99,
+        "name": "COVERALLS",
+        "link": "https://coveralls.io/github-students",
+        "img": "https://education.github.com/assets/pack/logo-coveralls-599acc4277446bb91864468efc4d558643add96139e0640ca94e0f12a17bc878.jpg",
+        "desc": "We help you deliver code confidently by showing which parts of your code aren't covered by your test suite.",
+        "benefit": "Free coverage for unlimited private repos on your personal account.",
+        "tags": [
+            "Developer tools",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 100,
+        "name": "logdna",
+        "link": "https://www.logdna.com/blog/get-a-free-logdna-account-in-the-github-student-developer-pack",
+        "img": "https://education.github.com/assets/pack/logo-logdna-e947b61a0c3860d8ec247c58b6af628a4883a7427480e8c9fa52860370290221.jpg",
+        "desc": "Log management platform that offers aggregation, monitoring, and analysis of server and application logs at any volume, from any source.",
+        "benefit": "Up to 50 GB/month of log storage with 14 day retention for one year.",
+        "tags": [
+            "Security & analytics",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 101,
+        "name": "Phrase",
+        "link": "https://phrase.com/lp/github-student-package/",
+        "img": "https://education.github.com/assets/pack/logo-phrase-3111222a57c9b0baecf5f99cd478da43ec538126948a68288240c919361f9c94.jpg",
+        "desc": "A cloud-based translation management system built to accelerate the development of multilingual digital products.",
+        "benefit": "Phrase Lite Plan free for up to 12 months for students.",
+        "tags": [
+            "Infrastructure & APIs",
+            "Developer tools",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 102,
+        "name": "transifex",
+        "link": "https://www.transifex.com/blog/2016/github-student-developer-pack/",
+        "img": "https://education.github.com/assets/pack/logo-transifex-ed22a1a1625990d51b166ba7586e2dee902c059599bb8eba08210075f6fddca1.jpg",
+        "desc": "Localization platform that easily integrates with your code base.",
+        "benefit": "Free 6-month subscription to the Starter plan.",
+        "tags": [
+            "Infrastructure & APIs",
+            "Developer tools",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 103,
+        "name": "SqlSmash",
+        "link": "https://student.sqlsmash.com/",
+        "img": "https://education.github.com/assets/pack/logo-sqlsmash-3eee517a79a627a9bf48a776d388e190ccd229875eb8b7df29d99e9ed9f2ed1c.jpg",
+        "desc": "Productivity plugin for SQL Server Management Studio for writing maintainable SQL scripts and faster navigation.",
+        "benefit": "Free standard license for students.",
+        "tags": [
+            "Developer tools",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 104,
+        "name": "termius",
+        "link": "https://termius.com/education",
+        "img": "https://education.github.com/assets/pack/logo-termius-ea90072ebab136b1cc3763086c0986844bdd57c57857129e25ed54f448a5ae41.jpg",
+        "desc": "SSH client that works on desktop and mobile. Termius securely syncs data across all your devices.",
+        "benefit": "Free access to the Premium plan while you're a student.",
+        "tags": [
+            "Mobile",
+            "Developer tools",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 105,
+        "name": "StreamYard",
+        "link": "https://streamyard.com/github-students",
+        "img": "/streamyard.png",
+        "desc": "The easiest way to create professional live streams.",
+        "benefit": "Free access to the Essential Plan while you are a student.",
+        "tags": [
+            "Virtual Events",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 106,
+        "name": "netwise,",
+        "link": "https://blog.netwise.co.uk/tag/github-student-developer-pack/",
+        "img": "https://education.github.com/assets/pack/logo-netwise-3115149bdeae9b3adfe7c97f0a6b0fe92333b5c767d322071f6d9f1843141140.jpg",
+        "desc": "Turnkey data centre services for the hosting of critical IT infrastructure systems.",
+        "benefit": "Free single unit server colocation package free for 12 months.",
+        "tags": [
+            "Internet of Things",
+            "Cloud",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 107,
+        "name": "Apple Music",
+        "link": "https://www.apple.com/in/apple-music/",
+        "img": "/applemusic.png",
+        "desc": "Apple Music is a music and video streaming service developed by Apple Inc.",
+        "benefit": "Students can choose the Apple Music Student Plan at ₹49 per month ",
+        "tags": [
+            "Entertainment",
+            "Music"
+        ]
+    },
+    {
+        "id": 108,
+        "name": "Education Host",
+        "link": "https://github-students.educationhost.co.uk/",
+        "img": "https://education.github.com/assets/pack/logo-educationhost-0a662bf6c825604f92bbeedb4d1f47aed6d32d02248327b81f2fa5c2907d4280.jpg",
+        "desc": "Leverage our Web Hosting platform to host assignment & project work.",
+        "benefit": "Designer package for free for 1 year & discounted upgrade offers.",
+        "tags": [
+            "Cloud",
+            "GitHub Dev pack"
+        ]
+    }
+
+]
