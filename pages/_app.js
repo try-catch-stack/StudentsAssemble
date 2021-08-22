@@ -47,6 +47,7 @@ export default function MyApp(props) {
         <CssBaseline />
         <Button
           onClick={() => {
+            // console.log(currentTheme.palette.type);
             if (currentTheme.palette.type == "dark") {
               setTheme(lightTheme);
             } else if (currentTheme.palette.type == "light") {

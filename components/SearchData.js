@@ -27,7 +27,7 @@ const useStyles = makeStyles((theme) => ({
       width: "50%",
     },
     [theme.breakpoints.up("md")]: {
-      padding: theme.spacing(4),
+      padding: theme.spacing(3),
       width: "100%",
     },
   },
@@ -55,7 +55,7 @@ export const SearchData = ({ data }) => {
 
   const search = (e) => {
     setSearch(e.target.value);
-    setTag("");
+    setTag("All");
     const searcher = new FuzzySearch(data, ["name"]);
     const result = searcher.search(e.target.value);
     setData(result);

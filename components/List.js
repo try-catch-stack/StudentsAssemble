@@ -4,7 +4,7 @@ import Grid from "@material-ui/core/Grid";
 import ImgCard from "./Card";
 import Box from "@material-ui/core/Box";
 import Typography from "@material-ui/core/Typography";
-import ReactPaginate from "react-paginate";
+import Pagination from "@material-ui/lab/Pagination";
 
 const useStyles = makeStyles((theme) => ({
   root: {

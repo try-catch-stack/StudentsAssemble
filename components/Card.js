@@ -10,15 +10,17 @@ import Typography from "@material-ui/core/Typography";
 import Box from "@material-ui/core/Box";
 import Chip from "@material-ui/core/Chip";
 import Fade from "react-reveal/Fade";
-import Image from "next/image";
+import { useTheme } from "@material-ui/core/styles";
 
 const useStyles = makeStyles({
   root: {
     maxWidth: "100%",
+    borderRadius: "15px",
   },
 });
 
 export default function ImgCard({ cardData }) {
+  const theme = useTheme();
   const classes = useStyles();
   const { id, name, img, desc, benefit, tags, link } = cardData;
   return (
@@ -54,7 +56,7 @@ export default function ImgCard({ cardData }) {
           </Box>
         </CardActionArea>
         <CardActions>
-          <Button size="small" color="primary" href={link}>
+          <Button size="small" href={link}>
             Apply
           </Button>
         </CardActions>
