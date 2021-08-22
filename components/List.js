@@ -17,11 +17,11 @@ export default function List({ currentdata }) {
   const classes = useStyles();
 
   const [startIndex, setStartIndex] = useState(0);
-  const [currentData, setData] = useState(currentdata);
+  // const [currentData, setData] = useState(currentdata);
   const [perPage] = useState(10);
-  const [pageCount, setPageCount] = useState(
-    Math.ceil(currentdata.length / perPage)
-  );
+  // const [pageCount, setPageCount] = useState(
+  //   Math.ceil(currentData.length / perPage)
+  // );
 
   const handlePageClick = (e) => {
     const selectedPage = e.selected;
@@ -31,22 +31,27 @@ export default function List({ currentdata }) {
   // useEffect(() => {
   //   setData(currentdata.slice(startIndex, startIndex + perPage));
   //   setPageCount(Math.ceil(currentdata.length / perPage));
-  // }, [startIndex, currentData]);
+  // }, [startIndex, currentdata]);
 
   return (
     <div className={classes.root}>
       <Grid container spacing={3} alignItems="center">
-        {currentData.length > 1
-          ? currentData.map((cardData) => {
+        {currentdata.length > 1
+          ? currentdata.map((cardData) => {
               return (
                 <Grid item sm={12} md={6} key={cardData.id}>
                   <ImgCard cardData={cardData} />
                 </Grid>
               );
             })
-          : currentData.map((cardData) => {
+          : currentdata.map((cardData) => {
               return (
-                <Box display="flex" justifyContent="center" alignItems="center">
+                <Box
+                  display="flex"
+                  justifyContent="center"
+                  alignItems="center"
+                  key={cardData.id}
+                >
                   <Grid item sm={12} md={6} key={cardData.id}>
                     <ImgCard cardData={cardData} />
                   </Grid>
@@ -54,13 +59,13 @@ export default function List({ currentdata }) {
               );
             })}
       </Grid>
-      {currentData.length == 0 ? (
+      {currentdata.length == 0 ? (
         <Box alignItems="center" justifyContent="center" display="flex" p={2}>
           <Typography>No results found!</Typography>
         </Box>
       ) : null}
       <Box alignItems="center" justifyContent="center" display="flex" m={4}>
-        <ReactPaginate
+        {/* <ReactPaginate
           previousLabel={"prev"}
           nextLabel={"next"}
           breakLabel={"..."}
@@ -72,7 +77,7 @@ export default function List({ currentdata }) {
           containerClassName={"pagination"}
           subContainerClassName={"pages pagination"}
           activeClassName={"active"}
-        />
+        /> */}
       </Box>
     </div>
   );

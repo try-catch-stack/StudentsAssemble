@@ -74,7 +74,6 @@ export const SearchData = ({ data }) => {
       setSearch("");
       const result = searcher.search(selectedTag);
       setData(result);
-      console.log(result);
     }
   };
 

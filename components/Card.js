@@ -39,7 +39,7 @@ export default function ImgCard({ cardData }) {
             <Typography gutterBottom variant="h1" component="h2"></Typography>
 
             <Typography variant="body2" color="textSecondary" component="p">
-              <b>Benefits : </b>
+              <b>Benefit : </b>
               {benefit}
             </Typography>
           </CardContent>
