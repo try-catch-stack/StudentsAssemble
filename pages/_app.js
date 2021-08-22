@@ -15,6 +15,11 @@ export default function MyApp(props) {
       type: "dark",
     },
   });
+  const lightTheme = createTheme({
+    palette: {
+      type: "light",
+    },
+  });
 
   const [currentTheme, setTheme] = useState(darkTheme);
 
@@ -40,8 +45,11 @@ export default function MyApp(props) {
         <CssBaseline />
         <Button
           onClick={() => {
-            if (currentTheme == darkTheme) setTheme(theme);
-            else setTheme(darkTheme);
+            if (currentTheme.palette.type == "dark") {
+              setTheme(lightTheme);
+            } else if (currentTheme.palette.type == "light") {
+              setTheme(darkTheme);
+            }
           }}
         >
           Toggle

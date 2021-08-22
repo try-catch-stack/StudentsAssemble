@@ -28,10 +28,10 @@ export default function List({ currentdata }) {
     setStartIndex(selectedPage * perPage);
   }; //Pagination
 
-  useEffect(() => {
-    setData(currentdata.slice(startIndex, startIndex + perPage));
-    setPageCount(Math.ceil(currentdata.length / perPage));
-  }, [startIndex, currentData]);
+  // useEffect(() => {
+  //   setData(currentdata.slice(startIndex, startIndex + perPage));
+  //   setPageCount(Math.ceil(currentdata.length / perPage));
+  // }, [startIndex, currentData]);
 
   return (
     <div className={classes.root}>
