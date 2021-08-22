@@ -62,7 +62,7 @@ export const SearchData = ({ data }) => {
   };
 
   const classes = useStyles();
-  const [tag, setTag] = React.useState("");
+  const [tag, setTag] = React.useState("All");
   const [open, setOpen] = React.useState(false);
 
   const handleChange = (event) => {
@@ -70,10 +70,12 @@ export const SearchData = ({ data }) => {
     let selectedTag = event.target.value;
     const searcher = new FuzzySearch(data, ["tags"]);
 
-    if (selectedTag) {
+    if (selectedTag != "All") {
       setSearch("");
       const result = searcher.search(selectedTag);
       setData(result);
+    } else {
+      setData(data);
     }
   };
 
@@ -117,7 +119,7 @@ export const SearchData = ({ data }) => {
               value={tag}
               onChange={handleChange}
             >
-              <MenuItem value="">
+              <MenuItem value="All">
                 <em>All</em>
               </MenuItem>
               {tags.map((tag) => {
