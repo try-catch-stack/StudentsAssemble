@@ -55,7 +55,7 @@ export const SearchData = ({ data }) => {
 
   const search = (e) => {
     setSearch(e.target.value);
-    setTag("");
+    setTag("All");
     const searcher = new FuzzySearch(data, ["name"]);
     const result = searcher.search(e.target.value);
     setData(result);

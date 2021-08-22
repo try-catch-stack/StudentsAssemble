@@ -4,7 +4,7 @@ import Grid from "@material-ui/core/Grid";
 import ImgCard from "./Card";
 import Box from "@material-ui/core/Box";
 import Typography from "@material-ui/core/Typography";
-import ReactPaginate from "react-paginate";
+import { Pagination } from "@material-ui/lab";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -16,35 +16,40 @@ const useStyles = makeStyles((theme) => ({
 export default function List({ currentdata }) {
   const classes = useStyles();
 
-  const [startIndex, setStartIndex] = useState(0);
-  // const [currentData, setData] = useState(currentdata);
+  const [currentPage, setCurrentPage] = useState(1);
+  const [currentData, setData] = useState(currentdata);
   const [perPage] = useState(10);
-  // const [pageCount, setPageCount] = useState(
-  //   Math.ceil(currentData.length / perPage)
-  // );
+  const [pageCount, setPageCount] = useState(
+    Math.ceil(currentdata.length / perPage)
+  );
 
-  const handlePageClick = (e) => {
-    const selectedPage = e.selected;
-    setStartIndex(selectedPage * perPage);
-  }; //Pagination
+  useEffect(() => {
+    const endIndex = currentPage * perPage;
+    const startIndex = endIndex - perPage;
+    setData(currentdata.slice(startIndex, endIndex));
+    setPageCount(Math.ceil(currentdata.length / perPage));
+  }, [currentPage]);
 
-  // useEffect(() => {
-  //   setData(currentdata.slice(startIndex, startIndex + perPage));
-  //   setPageCount(Math.ceil(currentdata.length / perPage));
-  // }, [startIndex, currentdata]);
+  useEffect(() => {
+    const endIndex = perPage;
+    const startIndex = 0;
+    setData(currentdata.slice(startIndex, endIndex));
+    setPageCount(Math.ceil(currentdata.length / perPage));
+    setCurrentPage(1);
+  }, [currentdata]);
 
   return (
     <div className={classes.root}>
       <Grid container spacing={3} alignItems="center">
-        {currentdata.length > 1
-          ? currentdata.map((cardData) => {
+        {currentData.length > 1
+          ? currentData.map((cardData) => {
               return (
                 <Grid item sm={12} md={6} key={cardData.id}>
                   <ImgCard cardData={cardData} />
                 </Grid>
               );
             })
-          : currentdata.map((cardData) => {
+          : currentData.map((cardData) => {
               return (
                 <Box
                   display="flex"
@@ -59,25 +64,23 @@ export default function List({ currentdata }) {
               );
             })}
       </Grid>
-      {currentdata.length == 0 ? (
+      {currentData.length == 0 ? (
         <Box alignItems="center" justifyContent="center" display="flex" p={2}>
           <Typography>No results found!</Typography>
         </Box>
       ) : null}
       <Box alignItems="center" justifyContent="center" display="flex" m={4}>
-        {/* <ReactPaginate
-          previousLabel={"prev"}
-          nextLabel={"next"}
-          breakLabel={"..."}
-          breakClassName={"break-me"}
-          pageCount={pageCount}
-          marginPagesDisplayed={2}
-          pageRangeDisplayed={5}
-          onPageChange={handlePageClick}
-          containerClassName={"pagination"}
-          subContainerClassName={"pages pagination"}
-          activeClassName={"active"}
-        /> */}
+        <Pagination
+          count={10}
+          color="primary"
+          defaultPage={1}
+          boundaryCount={1}
+          count={pageCount}
+          page={currentPage}
+          onChange={(e, page) => {
+            setCurrentPage(page);
+          }}
+        />
       </Box>
     </div>
   );
