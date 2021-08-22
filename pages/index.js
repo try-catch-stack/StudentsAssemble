@@ -8,10 +8,9 @@ import List from "../components/List";
 import TextField from "@material-ui/core/TextField";
 import FuzzySearch from "fuzzy-search";
 import SearchData from "../components/SearchData";
+import data from "../data_refined.json";
 
 export async function getStaticProps() {
-  const res = await fetch("http://localhost:3000/api/data");
-  const data = await res.json();
   return {
     props: { data },
   };
