@@ -111,7 +111,11 @@ export const SearchData = ({ data }) => {
             <TextField
               id="outlined-full-width"
               label="Search"
-              style={{ margin: theme.spacing(4), maxWidth: "100%" }}
+              style={{
+                margin: theme.spacing(4),
+                maxWidth: "100%",
+                minWidth: "80%",
+              }}
               placeholder="Name"
               display="inline"
               value={searchInput}

@@ -4,39 +4,32 @@ import GridItem from "../components/Grid/GridItem.js";
 import Button from "../components/CustomButtons/Button.js";
 import { makeStyles } from "@material-ui/core/styles";
 import styles from "../styles/bannerStyle.js";
-import Chip from "@material-ui/core/Chip";
-import Paper from "@material-ui/core/Paper";
-import waveSvg from "../public/wave.svg";
+import Image from "next/image";
+import Hidden from "@material-ui/core/Hidden";
+import Box from "@material-ui/core/Box";
 
 export const Banner = () => {
   const useStyles = makeStyles(styles);
   const classes = useStyles();
 
-  const customStyles = {
-    paperContainer: {
-      backgroundImage: `url(${waveSvg})`,
-    },
-  };
   return (
     <div className="spacer layer1">
       <div className={classes.container}>
         <GridContainer>
-          <GridItem xs={12} sm={12} md={12}>
+          <GridItem xs={12} sm={12} md={6}>
             <h1 className={classes.title}>
               Avail the benefits of your institute email id
             </h1>
             <h3 className={classes.body}>
               Did you know that your institute email id provides you some
               amazing benefits? From free courses on Coursera , to getting
-              discounts on spotify and apple music :) and a lot more. You get
+              discounts on Spotify and Apple music :) and a lot more. You get
               much more than what you would expect.
             </h3>
             <h3 className={classes.body}>
               As most of these privileges are provided under the GitHub student
-              developer pack (I have added the tag{" "}
-              <Chip variant="outlined" label="Github Dev pack" size="small" />{" "}
-              with those) , I would suggest you to first get your developer pack
-              from{" "}
+              developer pack , I would suggest you to first get your developer
+              pack from{" "}
               <Button
                 color="github"
                 size="sm"
@@ -52,10 +45,26 @@ export const Banner = () => {
               Once you have got the pack, claiming these offers is as easy as
               registering on them with your institute email id and you shall be
               good to go. Once you have got the pack, claiming these offers is
-              as easy as registering on them with your institute email id and
-              you shall be good to go.
+              as easy as registering on their websites with your institute email
+              id and you shall be good to go.
+            </h3>
+            <h3>
+              I hope this website will help those students who were unaware of
+              these great privileges offered to them.
             </h3>
             <br />
+          </GridItem>
+          <GridItem xs={0} sm={0} md={6}>
+            <Hidden mdDown>
+              <Box align="center" justifyContent="center" pl={4}>
+                <Image
+                  src="/design.gif"
+                  alt="Gif"
+                  width="400px"
+                  height="400px"
+                />
+              </Box>
+            </Hidden>
           </GridItem>
         </GridContainer>
       </div>

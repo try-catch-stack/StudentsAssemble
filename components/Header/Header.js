@@ -20,17 +20,13 @@ import Menu from "@material-ui/icons/Menu";
 // core components
 import styles from "../header-styles/headerStyle.js";
 import stylesHeaderLinks from "../header-styles/headerLinksStyle.js";
-import Banner from "../Banner";
-import SearchData from "../SearchData";
-import Copyright from "../../src/Copyright";
-import Switch from "@material-ui/core/Switch";
 
-import { ThemeProvider, createTheme } from "@material-ui/core/styles";
+import { createTheme } from "@material-ui/core/styles";
 
 const useStyles = makeStyles(styles);
 const useStylesHeaderLinks = makeStyles(stylesHeaderLinks);
 
-export default function Layout(props) {
+export default function Header(props) {
   const darkTheme = createTheme({
     palette: {
       type: "dark",
@@ -87,74 +83,56 @@ export default function Layout(props) {
   });
   const brandComponent = <Button className={classes.title}>{brand}</Button>;
   return (
-    <>
-      <AppBar className={appBarClasses}>
-        <Toolbar className={classes.container}>
-          {leftLinks !== undefined ? brandComponent : null}
-          <div className={classes.flex}>
-            {leftLinks !== undefined ? (
-              <Hidden smDown implementation="css">
-                {leftLinks}
-              </Hidden>
-            ) : (
-              brandComponent
-            )}
-          </div>
-          <Hidden smDown implementation="css">
-            {rightLinks}
-          </Hidden>
-          <Hidden mdUp>
-            <IconButton
-              color="inherit"
-              aria-label="open drawer"
-              onClick={handleDrawerToggle}
-            >
-              <Menu />
-            </IconButton>
-          </Hidden>
-        </Toolbar>
-        <Hidden mdUp implementation="js">
-          <Drawer
-            variant="temporary"
-            anchor={"right"}
-            open={mobileOpen}
-            classes={{
-              paper: classes.drawerPaper,
-            }}
-            onClose={handleDrawerToggle}
-          >
-            <div className={classes.appResponsive}>
+    <AppBar className={appBarClasses}>
+      <Toolbar className={classes.container}>
+        {leftLinks !== undefined ? brandComponent : null}
+        <div className={classes.flex}>
+          {leftLinks !== undefined ? (
+            <Hidden smDown implementation="css">
               {leftLinks}
-              {rightLinks}
-            </div>
-          </Drawer>
+            </Hidden>
+          ) : (
+            brandComponent
+          )}
+        </div>
+        <Hidden smDown implementation="css">
+          {rightLinks}
         </Hidden>
-      </AppBar>
-      <ThemeProvider theme={dark ? darkTheme : lightTheme}>
-        <Paper>
-          <Banner />
-          <div className="spacer2 layer2">
-            <SearchData data={props.data} />
-            <Copyright />
+        <Hidden mdUp>
+          <IconButton
+            color="inherit"
+            aria-label="open drawer"
+            onClick={handleDrawerToggle}
+          >
+            <Menu />
+          </IconButton>
+        </Hidden>
+      </Toolbar>
+      <Hidden mdUp implementation="js">
+        <Drawer
+          variant="temporary"
+          anchor={"right"}
+          open={mobileOpen}
+          classes={{
+            paper: classes.drawerPaper,
+          }}
+          onClose={handleDrawerToggle}
+        >
+          <div className={classes.appResponsive}>
+            {leftLinks}
+            {rightLinks}
           </div>
-        </Paper>
-      </ThemeProvider>
-    </>
+        </Drawer>
+      </Hidden>
+    </AppBar>
   );
 }
-{
-  /* 
-      <Banner />
-      <SearchData data={data} />
-      <Copyright />
-    </Container> */
-}
 
-Layout.defaultProp = {
+Header.defaultProp = {
   color: "white",
 };
 
-Layout.propTypes = {
+Header.propTypes = {
   color: PropTypes.oneOf([
     "primary",
     "info",
