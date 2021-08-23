@@ -20,7 +20,6 @@ export default function MyApp(props) {
       background: { paper: "#2C394B", default: "#fff" },
     },
   });
-  console.log(darkTheme);
 
   React.useEffect(() => {
     // Remove the server-side injected CSS.

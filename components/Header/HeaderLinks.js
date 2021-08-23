@@ -26,7 +26,6 @@ export default function HeaderLinks(props) {
         <Button
           onClick={() => animateScroll.scrollToTop()}
           color="transparent"
-          target="_blank"
           className={classes.navLink}
         >
           About
@@ -34,9 +33,14 @@ export default function HeaderLinks(props) {
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button
-          href=""
+          onClick={() =>
+            scroller.scrollTo("footer", {
+              duration: 1000,
+              delay: 0,
+              smooth: "easeInOutQuart",
+            })
+          }
           color="transparent"
-          target="_blank"
           className={classes.navLink}
         >
           Contact
@@ -44,7 +48,7 @@ export default function HeaderLinks(props) {
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button
-          href=""
+          href="https://github.com/try-catch-stack/StudentsAssemble"
           color="transparent"
           target="_blank"
           className={classes.navLink}

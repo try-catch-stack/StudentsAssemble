@@ -29,3 +29,11 @@
 .layer2 {
   background-image: url("../public/layer2_right.svg");
 }
+
+.fab {
+  margin: "10px";
+  transition: transform 0.2s;
+}
+.fab:hover {
+  transform: scale(1.5);
+}

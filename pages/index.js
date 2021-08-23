@@ -6,7 +6,7 @@ import data from "../data.json";
 import Header from "../components/Header/Header";
 import Banner from "../components/Banner";
 import SearchData from "../components/SearchData";
-import Copyright from "../components/Copyright";
+import Footer from "../components/Footer";
 import HeaderLinks from "../components/Header/HeaderLinks";
 import { makeStyles } from "@material-ui/core/styles";
 import styles from "../styles/bannerStyle.js";
@@ -39,7 +39,7 @@ export default function Index({ data }) {
       <Banner />
       <div className="spacer2 layer2">
         <SearchData data={data} />
-        <Copyright />
+        <Footer />
       </div>
     </>
   );

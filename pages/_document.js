@@ -24,16 +24,15 @@ export default class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap"
             rel="stylesheet"
           />
-
           <link
             href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
             rel="stylesheet"
           />
-
           <link
             href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&display=swap"
             rel="stylesheet"
           />
+          <script src="https://cdn.lordicon.com/libs/mssddfmo/lord-icon-2.1.0.js" />
         </Head>
         <body>
           <Main />
