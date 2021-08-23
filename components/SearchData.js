@@ -17,7 +17,8 @@ import theme from "../src/theme";
 
 const useStyles = makeStyles((theme) => ({
   main: {
-    marginTop: "50px",
+    // marginTop: "50px",
+    // paddingTop: theme.spacing(7),
   },
   button: {
     display: "block",
@@ -153,7 +154,7 @@ export const SearchData = ({ data }) => {
             </Box>
           </Grid>
         </Grid>
-        <Box border={1}>
+        <Box>
           <List currentdata={currentData} />
         </Box>
       </Container>

@@ -31,6 +31,7 @@ const tooltip = {
 const headerLinksStyle = (theme) => ({
   list: {
     ...defaultFont,
+    display: "inline",
     fontSize: "14px",
     margin: 0,
     paddingLeft: "0",
@@ -43,7 +44,7 @@ const headerLinksStyle = (theme) => ({
     float: "left",
     color: "inherit",
     position: "relative",
-    display: "block",
+    display: "inline",
     width: "auto",
     margin: "0",
     padding: "0",

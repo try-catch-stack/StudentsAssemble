@@ -40,22 +40,11 @@ export default function MyApp(props) {
           content="minimum-scale=1, initial-scale=1, width=device-width"
         />
       </Head>
-      <ThemeProvider theme={currentTheme}>
-        {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
-        <CssBaseline />
-        <Button
-          onClick={() => {
-            if (currentTheme.palette.type == "dark") {
-              setTheme(lightTheme);
-            } else if (currentTheme.palette.type == "light") {
-              setTheme(darkTheme);
-            }
-          }}
-        >
-          Toggle
-        </Button>
-        <Component {...pageProps} />
-      </ThemeProvider>
+      {/* <ThemeProvider theme={currentTheme}> */}
+      {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
+      <CssBaseline />
+      <Component {...pageProps} />
+      {/* </ThemeProvider> */}
     </React.Fragment>
   );
 }

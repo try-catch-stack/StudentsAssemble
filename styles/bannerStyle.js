@@ -1,22 +1,23 @@
 import { container, title } from "../components/material-ui-components";
-
 const bannerStyle = {
   container: {
     zIndex: "12",
     color: "#FFFFFF",
-    padding: "2rem",
+    padding: "8rem",
     display: "flex",
-    margin: "2rem",
+    // margin: "2rem",
     maxHeight: "100vh",
     ...container,
   },
+
   title: {
     ...title,
+    fontFamily: "Rampart One",
     display: "inline-block",
     position: "relative",
     marginTop: "30px",
     minHeight: "32px",
-    color: "#FFFFFF",
+    // color: "#fff",
     textDecoration: "none",
   },
   subtitle: {

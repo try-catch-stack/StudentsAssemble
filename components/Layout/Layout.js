@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 // nodejs library that concatenates classes
 import classNames from "classnames";
 // nodejs library to set properties for components
@@ -11,15 +11,40 @@ import IconButton from "@material-ui/core/IconButton";
 import Button from "@material-ui/core/Button";
 import Hidden from "@material-ui/core/Hidden";
 import Drawer from "@material-ui/core/Drawer";
+import Container from "@material-ui/core/Container";
+import List from "@material-ui/core/List";
+import ListItem from "@material-ui/core/ListItem";
+import Paper from "@material-ui/core/Paper";
 // @material-ui/icons
 import Menu from "@material-ui/icons/Menu";
 // core components
 import styles from "../header-styles/headerStyle.js";
+import stylesHeaderLinks from "../header-styles/headerLinksStyle.js";
+import Banner from "../Banner";
+import SearchData from "../SearchData";
+import Copyright from "../../src/Copyright";
+import Switch from "@material-ui/core/Switch";
+
+import { ThemeProvider, createTheme } from "@material-ui/core/styles";
 
 const useStyles = makeStyles(styles);
+const useStylesHeaderLinks = makeStyles(stylesHeaderLinks);
 
-export default function Header(props) {
+export default function Layout(props) {
+  const darkTheme = createTheme({
+    palette: {
+      type: "dark",
+    },
+  });
+  const lightTheme = createTheme({
+    palette: {
+      type: "light",
+    },
+  });
+  const [dark, setDarkTheme] = useState(true);
+
   const classes = useStyles();
+  const classesHeaderLinks = useStylesHeaderLinks();
   const [mobileOpen, setMobileOpen] = React.useState(false);
   React.useEffect(() => {
     if (props.changeColorOnScroll) {
@@ -62,56 +87,74 @@ export default function Header(props) {
   });
   const brandComponent = <Button className={classes.title}>{brand}</Button>;
   return (
-    <AppBar className={appBarClasses}>
-      <Toolbar className={classes.container}>
-        {leftLinks !== undefined ? brandComponent : null}
-        <div className={classes.flex}>
-          {leftLinks !== undefined ? (
-            <Hidden smDown implementation="css">
-              {leftLinks}
-            </Hidden>
-          ) : (
-            brandComponent
-          )}
-        </div>
-        <Hidden smDown implementation="css">
-          {rightLinks}
-        </Hidden>
-        <Hidden mdUp>
-          <IconButton
-            color="inherit"
-            aria-label="open drawer"
-            onClick={handleDrawerToggle}
-          >
-            <Menu />
-          </IconButton>
-        </Hidden>
-      </Toolbar>
-      <Hidden mdUp implementation="js">
-        <Drawer
-          variant="temporary"
-          anchor={"right"}
-          open={mobileOpen}
-          classes={{
-            paper: classes.drawerPaper,
-          }}
-          onClose={handleDrawerToggle}
-        >
-          <div className={classes.appResponsive}>
-            {leftLinks}
-            {rightLinks}
+    <>
+      <AppBar className={appBarClasses}>
+        <Toolbar className={classes.container}>
+          {leftLinks !== undefined ? brandComponent : null}
+          <div className={classes.flex}>
+            {leftLinks !== undefined ? (
+              <Hidden smDown implementation="css">
+                {leftLinks}
+              </Hidden>
+            ) : (
+              brandComponent
+            )}
           </div>
-        </Drawer>
-      </Hidden>
-    </AppBar>
+          <Hidden smDown implementation="css">
+            {rightLinks}
+          </Hidden>
+          <Hidden mdUp>
+            <IconButton
+              color="inherit"
+              aria-label="open drawer"
+              onClick={handleDrawerToggle}
+            >
+              <Menu />
+            </IconButton>
+          </Hidden>
+        </Toolbar>
+        <Hidden mdUp implementation="js">
+          <Drawer
+            variant="temporary"
+            anchor={"right"}
+            open={mobileOpen}
+            classes={{
+              paper: classes.drawerPaper,
+            }}
+            onClose={handleDrawerToggle}
+          >
+            <div className={classes.appResponsive}>
+              {leftLinks}
+              {rightLinks}
+            </div>
+          </Drawer>
+        </Hidden>
+      </AppBar>
+      <ThemeProvider theme={dark ? darkTheme : lightTheme}>
+        <Paper>
+          <Banner />
+          <div className="spacer2 layer2">
+            <SearchData data={props.data} />
+            <Copyright />
+          </div>
+        </Paper>
+      </ThemeProvider>
+    </>
   );
 }
+{
+  /* 
+      <Banner />
+      <SearchData data={data} />
+      <Copyright />
+    </Container> */
+}
 
-Header.defaultProp = {
+Layout.defaultProp = {
   color: "white",
 };
 
-Header.propTypes = {
+Layout.propTypes = {
   color: PropTypes.oneOf([
     "primary",
     "info",

@@ -5,50 +5,60 @@ import Button from "../components/CustomButtons/Button.js";
 import { makeStyles } from "@material-ui/core/styles";
 import styles from "../styles/bannerStyle.js";
 import Chip from "@material-ui/core/Chip";
+import Paper from "@material-ui/core/Paper";
+import waveSvg from "../public/wave.svg";
 
 export const Banner = () => {
   const useStyles = makeStyles(styles);
   const classes = useStyles();
+
+  const customStyles = {
+    paperContainer: {
+      backgroundImage: `url(${waveSvg})`,
+    },
+  };
   return (
-    <div className={classes.container}>
-      <GridContainer>
-        <GridItem xs={12} sm={12} md={12}>
-          <h1 className={classes.title}>
-            Avail the benefits of your institute email id
-          </h1>
-          <h4>
-            Did you know that your institute email id provides you some amazing
-            benefits? From free courses on Coursera , to getting discounts on
-            spotify and apple music :) and a lot more. You get much more than
-            what you would expect.
-          </h4>
-          <h4>
-            As most of these privileges are provided under the GitHub student
-            developer pack (I have added the tag{" "}
-            <Chip variant="outlined" label="Github Dev pack" size="small" />{" "}
-            with those) , I would suggest you to first get your developer pack
-            from{" "}
-            <Button
-              color="github"
-              size="sm"
-              href="https://education.github.com/benefits?type=student"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className={" fab fa-github"} />
-              Student Developer Pack
-            </Button>
-          </h4>
-          <h4>
-            Once you have got the pack, claiming these offers is as easy as
-            registering on them with your institute email id and you shall be
-            good to go. Once you have got the pack, claiming these offers is as
-            easy as registering on them with your institute email id and you
-            shall be good to go.
-          </h4>
-          <br />
-        </GridItem>
-      </GridContainer>
+    <div className="spacer layer1">
+      <div className={classes.container}>
+        <GridContainer>
+          <GridItem xs={12} sm={12} md={12}>
+            <h1 className={classes.title}>
+              Avail the benefits of your institute email id
+            </h1>
+            <h3 className={classes.body}>
+              Did you know that your institute email id provides you some
+              amazing benefits? From free courses on Coursera , to getting
+              discounts on spotify and apple music :) and a lot more. You get
+              much more than what you would expect.
+            </h3>
+            <h3 className={classes.body}>
+              As most of these privileges are provided under the GitHub student
+              developer pack (I have added the tag{" "}
+              <Chip variant="outlined" label="Github Dev pack" size="small" />{" "}
+              with those) , I would suggest you to first get your developer pack
+              from{" "}
+              <Button
+                color="github"
+                size="sm"
+                href="https://education.github.com/benefits?type=student"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className={" fab fa-github"} />
+                Student Developer Pack
+              </Button>
+            </h3>
+            <h3 className={classes.body}>
+              Once you have got the pack, claiming these offers is as easy as
+              registering on them with your institute email id and you shall be
+              good to go. Once you have got the pack, claiming these offers is
+              as easy as registering on them with your institute email id and
+              you shall be good to go.
+            </h3>
+            <br />
+          </GridItem>
+        </GridContainer>
+      </div>
     </div>
   );
 };

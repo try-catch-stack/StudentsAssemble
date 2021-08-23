@@ -10,7 +10,6 @@ import Typography from "@material-ui/core/Typography";
 import Box from "@material-ui/core/Box";
 import Chip from "@material-ui/core/Chip";
 import Fade from "react-reveal/Fade";
-import Image from "next/image";
 
 const useStyles = makeStyles({
   root: {
