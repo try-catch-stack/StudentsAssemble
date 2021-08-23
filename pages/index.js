@@ -2,23 +2,30 @@ import React from "react";
 import { useState } from "react";
 import Container from "@material-ui/core/Container";
 import Typography from "@material-ui/core/Typography";
-import Box from "@material-ui/core/Box";
 import Copyright from "../src/Copyright";
-import List from "../components/List";
-import TextField from "@material-ui/core/TextField";
 import FuzzySearch from "fuzzy-search";
 import SearchData from "../components/SearchData";
-import data from "../data_refined.json";
+import data from "../data.json";
+import Header from "../components/Header/Header";
+import HeaderLinks from "../components/Header/HeaderLinks";
+import { makeStyles } from "@material-ui/core/styles";
+import styles from "../styles/bannerStyle.js";
+import Banner from "../components/Banner";
 
 export async function getStaticProps() {
   return {
     props: { data },
   };
 }
+const useStyles = makeStyles(styles);
 
 export default function Index({ data }) {
   const [currentData, setData] = useState(data);
   const [searchInput, setSearch] = useState("");
+
+  const dashboardRoutes = [];
+
+  const classes = useStyles();
 
   const search = (e) => {
     setSearch(e.target.value);
@@ -29,18 +36,18 @@ export default function Index({ data }) {
 
   return (
     <Container maxWidth="lg">
-      <Box alignContent="center">
-        <Typography
-          variant="h4"
-          color="textPrimary"
-          component="h4"
-        ></Typography>
-        <Typography
-          variant="h4"
-          color="textPrimary"
-          component="h4"
-        ></Typography>
-      </Box>
+      <Header
+        color="transparent"
+        routes={dashboardRoutes}
+        brand="Material Kit React"
+        rightLinks={<HeaderLinks />}
+        fixed
+        changeColorOnScroll={{
+          height: 400,
+          color: "white",
+        }}
+      />
+      <Banner />
       <SearchData data={data} />
       <Copyright />
     </Container>

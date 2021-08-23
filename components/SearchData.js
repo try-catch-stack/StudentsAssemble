@@ -16,20 +16,33 @@ import { Typography, Grid } from "@material-ui/core";
 import theme from "../src/theme";
 
 const useStyles = makeStyles((theme) => ({
+  main: {
+    marginTop: "50px",
+  },
   button: {
     display: "block",
     marginTop: theme.spacing(2),
   },
-  formControl: {
-    margin: theme.spacing(1),
-    minWidth: "80%",
+  selectMenu: {
+    // margin: theme.spacing(1),
+    // minWidth: "80%",
     [theme.breakpoints.down("xs")]: {
-      width: "50%",
+      padding: theme.spacing(4),
+      width: "100%",
+    },
+    [theme.breakpoints.down("sm")]: {
+      padding: theme.spacing(4),
+      width: "100%",
     },
     [theme.breakpoints.up("md")]: {
       padding: theme.spacing(4),
       width: "100%",
     },
+  },
+  formControl: {
+    margin: theme.spacing(1),
+    paddingBottom: theme.spacing(2),
+    minWidth: "100%",
   },
 }));
 
@@ -47,6 +60,8 @@ const tags = [
   "Productivity",
   "Virtual Events",
   "Security & analytics",
+  "Music",
+  "Github Dev pack",
 ];
 
 export const SearchData = ({ data }) => {
@@ -88,55 +103,61 @@ export const SearchData = ({ data }) => {
   };
 
   return (
-    <Container>
-      <Grid container spacing={3}>
-        <Grid item xs={12} sm={4} md={4}>
-          <TextField
-            id="outlined-full-width"
-            label="Search"
-            style={{ margin: theme.spacing(4) }}
-            placeholder="Name"
-            display="inline"
-            value={searchInput}
-            onChange={search}
-            margin="normal"
-            InputLabelProps={{
-              shrink: true,
-            }}
-            variant="outlined"
-          />
-        </Grid>
-        <Grid item xs={12} sm={4} md={4}></Grid>
-        <Grid item xs={12} sm={4} md={4}>
-          <FormControl className={classes.formControl}>
-            <InputLabel id="demo-controlled-open-select-label">Tags</InputLabel>
-            <Select
-              labelId="demo-controlled-open-select-label"
-              id="demo-controlled-open-select"
-              open={open}
-              onClose={handleClose}
-              onOpen={handleOpen}
-              value={tag}
-              onChange={handleChange}
-            >
-              <MenuItem value="All">
-                <em>All</em>
-              </MenuItem>
-              {tags.map((tag) => {
-                return (
-                  <MenuItem value={tag} key={tag}>
-                    <Chip variant="outlined" label={tag} />
+    <div className={classes.main}>
+      <Container>
+        <Grid container spacing={0}>
+          <Grid item xs={12} sm={4} md={4}>
+            <TextField
+              id="outlined-full-width"
+              label="Search"
+              style={{ margin: theme.spacing(4), maxWidth: "100%" }}
+              placeholder="Name"
+              display="inline"
+              value={searchInput}
+              onChange={search}
+              margin="normal"
+              InputLabelProps={{
+                shrink: true,
+              }}
+              variant="outlined"
+            />
+          </Grid>
+          <Grid item xs={12} sm={4} md={4}></Grid>
+          <Grid item xs={12} sm={4} md={4}>
+            <Box className={classes.selectMenu}>
+              <FormControl className={classes.formControl}>
+                <InputLabel id="demo-controlled-open-select-label">
+                  Tags
+                </InputLabel>
+                <Select
+                  labelId="demo-controlled-open-select-label"
+                  id="demo-controlled-open-select"
+                  open={open}
+                  onClose={handleClose}
+                  onOpen={handleOpen}
+                  value={tag}
+                  onChange={handleChange}
+                >
+                  <MenuItem value="All">
+                    <em>All</em>
                   </MenuItem>
-                );
-              })}
-            </Select>
-          </FormControl>
+                  {tags.map((tag) => {
+                    return (
+                      <MenuItem value={tag} key={tag}>
+                        <Chip variant="outlined" label={tag} />
+                      </MenuItem>
+                    );
+                  })}
+                </Select>
+              </FormControl>
+            </Box>
+          </Grid>
         </Grid>
-      </Grid>
-      <Box border={1}>
-        <List currentdata={currentData} />
-      </Box>
-    </Container>
+        <Box border={1}>
+          <List currentdata={currentData} />
+        </Box>
+      </Container>
+    </div>
   );
 };
 export default SearchData;

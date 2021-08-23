@@ -4,15 +4,17 @@
   "private": true,
   "dependencies": {
     "@material-ui/core": "latest",
+    "@material-ui/icons": "^4.11.2",
     "@material-ui/lab": "^4.0.0-alpha.60",
     "clsx": "latest",
     "fuzzy-search": "^3.2.1",
     "next": "latest",
-    "prop-types": "latest",
+    "prop-types": "^15.7.2",
     "react": "latest",
     "react-dom": "latest",
     "react-paginate": "^7.1.3",
-    "react-reveal": "^1.2.2"
+    "react-reveal": "^1.2.2",
+    "react-router-dom": "^5.2.0"
   },
   "scripts": {
     "dev": "next",

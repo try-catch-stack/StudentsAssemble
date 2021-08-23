@@ -54,7 +54,7 @@ export default function ImgCard({ cardData }) {
           </Box>
         </CardActionArea>
         <CardActions>
-          <Button size="small" color="primary" href={link}>
+          <Button size="small" href={link}>
             Apply
           </Button>
         </CardActions>
