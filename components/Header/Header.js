@@ -18,24 +18,10 @@ import Menu from "@material-ui/icons/Menu";
 import styles from "../header-styles/headerStyle.js";
 import stylesHeaderLinks from "../header-styles/headerLinksStyle.js";
 
-import { createTheme } from "@material-ui/core/styles";
-
 const useStyles = makeStyles(styles);
 const useStylesHeaderLinks = makeStyles(stylesHeaderLinks);
 
 export default function Header(props) {
-  const darkTheme = createTheme({
-    palette: {
-      type: "dark",
-    },
-  });
-  const lightTheme = createTheme({
-    palette: {
-      type: "light",
-    },
-  });
-  const [dark, setDarkTheme] = useState(true);
-
   const classes = useStyles();
   const classesHeaderLinks = useStylesHeaderLinks();
   const [mobileOpen, setMobileOpen] = React.useState(false);

@@ -3,10 +3,14 @@ import PropTypes from "prop-types";
 import Head from "next/head";
 import { ThemeProvider, createTheme } from "@material-ui/core/styles";
 import CssBaseline from "@material-ui/core/CssBaseline";
+import Router from "next/router";
+import SyncLoader from "react-spinners/SyncLoader";
+
 import "../styles/global.css";
 
 export default function MyApp(props) {
   const { Component, pageProps } = props;
+  const [loading, setLoading] = useState(false);
 
   const darkTheme = createTheme({
     palette: {
@@ -27,9 +31,27 @@ export default function MyApp(props) {
     if (jssStyles) {
       jssStyles.parentElement.removeChild(jssStyles);
     }
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 1000);
+    Router.events.on("routeChangeComplete");
   }, []);
 
-  return (
+  return loading ? (
+    <div
+      style={{
+        textAlign: "center",
+        display: "flex",
+        justifyContent: "center",
+        width: "100%",
+        height: "100vh",
+        alignItems: "center",
+      }}
+    >
+      <SyncLoader color={"#170055"} loading={loading} size={35} />
+    </div>
+  ) : (
     <React.Fragment>
       <Head>
         <title>Students Assemble</title>

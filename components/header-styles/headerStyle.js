@@ -53,8 +53,9 @@ const headerStyle = {
   },
   title: {
     ...defaultFont,
+    fontFamily: "Lobster Two",
     lineHeight: "30px",
-    fontSize: "18px",
+    fontSize: "25px",
     borderRadius: "3px",
     textTransform: "none",
     color: "inherit",
