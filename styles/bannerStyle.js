@@ -39,6 +39,9 @@ const bannerStyle = {
   a: {
     color: "#3DB2FF",
   },
+  body: {
+    fontFamily: "Fira Sans",
+  },
 };
 
 export default bannerStyle;

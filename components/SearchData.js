@@ -13,7 +13,8 @@ import FormControl from "@material-ui/core/FormControl";
 import Select from "@material-ui/core/Select";
 import Chip from "@material-ui/core/Chip";
 import { Typography, Grid } from "@material-ui/core";
-import theme from "../src/theme";
+import theme from "../styles/theme";
+import { ThemeProvider } from "@material-ui/core/styles";
 
 const useStyles = makeStyles((theme) => ({
   main: {
@@ -68,7 +69,6 @@ const tags = [
 export const SearchData = ({ data }) => {
   const [currentData, setData] = useState(data);
   const [searchInput, setSearch] = useState("");
-
   const search = (e) => {
     setSearch(e.target.value);
     setTag("All");
@@ -106,59 +106,61 @@ export const SearchData = ({ data }) => {
   return (
     <div className={classes.main}>
       <Container>
-        <Grid container spacing={0}>
-          <Grid item xs={12} sm={4} md={4}>
-            <TextField
-              id="outlined-full-width"
-              label="Search"
-              style={{
-                margin: theme.spacing(4),
-                maxWidth: "100%",
-                minWidth: "80%",
-              }}
-              placeholder="Name"
-              display="inline"
-              value={searchInput}
-              onChange={search}
-              margin="normal"
-              InputLabelProps={{
-                shrink: true,
-              }}
-              variant="outlined"
-            />
+        <ThemeProvider theme={(theme) => ({ darkMode: true, ...theme })}>
+          <Grid container spacing={0}>
+            <Grid item xs={12} sm={4} md={4}>
+              <TextField
+                id="outlined-full-width"
+                label="Search"
+                style={{
+                  margin: theme.spacing(4),
+                  maxWidth: "100%",
+                  minWidth: "80%",
+                }}
+                placeholder="Name"
+                display="inline"
+                value={searchInput}
+                onChange={search}
+                margin="normal"
+                InputLabelProps={{
+                  shrink: true,
+                }}
+                variant="outlined"
+              />
+            </Grid>
+            <Grid item xs={12} sm={4} md={4}></Grid>
+            <Grid item xs={12} sm={4} md={4}>
+              <Box className={classes.selectMenu}>
+                <FormControl className={classes.formControl}>
+                  <InputLabel id="demo-controlled-open-select-label">
+                    Tags
+                  </InputLabel>
+                  <Select
+                    labelId="demo-controlled-open-select-label"
+                    id="demo-controlled-open-select"
+                    open={open}
+                    onClose={handleClose}
+                    onOpen={handleOpen}
+                    value={tag}
+                    onChange={handleChange}
+                  >
+                    <MenuItem value="All">
+                      <em>All</em>
+                    </MenuItem>
+                    {tags.map((tag) => {
+                      return (
+                        <MenuItem value={tag} key={tag}>
+                          <Chip variant="outlined" label={tag} />
+                        </MenuItem>
+                      );
+                    })}
+                  </Select>
+                </FormControl>
+              </Box>
+            </Grid>
           </Grid>
-          <Grid item xs={12} sm={4} md={4}></Grid>
-          <Grid item xs={12} sm={4} md={4}>
-            <Box className={classes.selectMenu}>
-              <FormControl className={classes.formControl}>
-                <InputLabel id="demo-controlled-open-select-label">
-                  Tags
-                </InputLabel>
-                <Select
-                  labelId="demo-controlled-open-select-label"
-                  id="demo-controlled-open-select"
-                  open={open}
-                  onClose={handleClose}
-                  onOpen={handleOpen}
-                  value={tag}
-                  onChange={handleChange}
-                >
-                  <MenuItem value="All">
-                    <em>All</em>
-                  </MenuItem>
-                  {tags.map((tag) => {
-                    return (
-                      <MenuItem value={tag} key={tag}>
-                        <Chip variant="outlined" label={tag} />
-                      </MenuItem>
-                    );
-                  })}
-                </Select>
-              </FormControl>
-            </Box>
-          </Grid>
-        </Grid>
-        <Box>
+        </ThemeProvider>
+        <Box className="listStart">
           <List currentdata={currentData} />
         </Box>
       </Container>

@@ -14,6 +14,8 @@ import Button from "../CustomButtons/Button.js";
 
 import styles from "../header-styles/headerLinksStyle.js";
 
+import { scroller, animateScroll } from "react-scroll";
+
 const useStyles = makeStyles(styles);
 
 export default function HeaderLinks(props) {
@@ -22,7 +24,7 @@ export default function HeaderLinks(props) {
     <List className={classes.list}>
       <ListItem className={classes.listItem}>
         <Button
-          href=""
+          onClick={() => animateScroll.scrollToTop()}
           color="transparent"
           target="_blank"
           className={classes.navLink}

@@ -3,7 +3,6 @@ import PropTypes from "prop-types";
 import Head from "next/head";
 import { ThemeProvider, createTheme } from "@material-ui/core/styles";
 import CssBaseline from "@material-ui/core/CssBaseline";
-import theme from "../src/theme";
 import "../styles/global.css";
 
 export default function MyApp(props) {
@@ -12,15 +11,16 @@ export default function MyApp(props) {
   const darkTheme = createTheme({
     palette: {
       type: "dark",
+      primary: {
+        main: "#fff",
+      },
+      secondary: {
+        main: "#19857b",
+      },
+      background: { paper: "#2C394B", default: "#fff" },
     },
   });
-  const lightTheme = createTheme({
-    palette: {
-      type: "light",
-    },
-  });
-
-  const [currentTheme, setTheme] = useState(darkTheme);
+  console.log(darkTheme);
 
   React.useEffect(() => {
     // Remove the server-side injected CSS.
@@ -39,10 +39,9 @@ export default function MyApp(props) {
           content="minimum-scale=1, initial-scale=1, width=device-width"
         />
       </Head>
-      <ThemeProvider theme={currentTheme}>
+      <ThemeProvider theme={darkTheme}>
         {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
         <CssBaseline />
-
         <Component {...pageProps} />
       </ThemeProvider>
     </React.Fragment>

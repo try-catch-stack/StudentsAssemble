@@ -5,6 +5,7 @@ import ImgCard from "./Card";
 import Box from "@material-ui/core/Box";
 import Typography from "@material-ui/core/Typography";
 import { Pagination } from "@material-ui/lab";
+import { scroller, animateScroll } from "react-scroll";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -79,6 +80,12 @@ export default function List({ currentdata }) {
           page={currentPage}
           onChange={(e, page) => {
             setCurrentPage(page);
+            scroller.scrollTo("listStart", {
+              duration: 800,
+              delay: 0,
+              smooth: "easeInOutQuart",
+              offset: -50,
+            });
           }}
         />
       </Box>

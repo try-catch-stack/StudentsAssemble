@@ -53,7 +53,12 @@ export default function ImgCard({ cardData }) {
           </Box>
         </CardActionArea>
         <CardActions>
-          <Button size="small" href={link}>
+          <Button
+            size="small"
+            href={link}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Apply
           </Button>
         </CardActions>

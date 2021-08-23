@@ -1,7 +1,7 @@
 import React from "react";
 import Document, { Html, Head, Main, NextScript } from "next/document";
 import { ServerStyleSheets } from "@material-ui/core/styles";
-import theme from "../src/theme";
+import theme from "../styles/theme";
 
 export default class MyDocument extends Document {
   render() {
@@ -22,6 +22,16 @@ export default class MyDocument extends Document {
           <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
           <link
             href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap"
+            rel="stylesheet"
+          />
+
+          <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
+            rel="stylesheet"
+          />
+
+          <link
+            href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&display=swap"
             rel="stylesheet"
           />
         </Head>
