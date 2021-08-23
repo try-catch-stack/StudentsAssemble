@@ -6,6 +6,7 @@
 }
 
 .spacer {
+  background-color: #002233;
   aspect-ratio: 960/300;
   width: 100%;
   background-repeat: no-repeat;
@@ -15,6 +16,7 @@
 }
 
 .spacer2 {
+  background-color: #002233;
   /* aspect-ratio: 960/300; */
   width: 100%;
   background-repeat: no-repeat;
