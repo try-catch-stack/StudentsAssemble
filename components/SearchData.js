@@ -12,7 +12,7 @@ import MenuItem from "@material-ui/core/MenuItem";
 import FormControl from "@material-ui/core/FormControl";
 import Select from "@material-ui/core/Select";
 import Chip from "@material-ui/core/Chip";
-import { Typography, Grid } from "@material-ui/core";
+import { Grid } from "@material-ui/core";
 import theme from "../styles/theme";
 import { ThemeProvider } from "@material-ui/core/styles";
 
@@ -122,9 +122,9 @@ export const SearchData = ({ data }) => {
                 value={searchInput}
                 onChange={search}
                 margin="normal"
-                InputLabelProps={{
-                  shrink: true,
-                }}
+                // InputLabelProps={{
+                //   shrink: true,
+                // }}
                 variant="outlined"
               />
             </Grid>
