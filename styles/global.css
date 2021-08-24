@@ -5,6 +5,10 @@
   }
 }
 
+.wrapper {
+  background-color: #002233;
+}
+
 .spacer {
   background-color: #002233;
   aspect-ratio: 960/300;

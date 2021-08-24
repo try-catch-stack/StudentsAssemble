@@ -18,7 +18,7 @@ import { ThemeProvider } from "@material-ui/core/styles";
 
 const useStyles = makeStyles((theme) => ({
   main: {
-    // marginTop: "50px",
+    marginTop: "50px",
     // paddingTop: theme.spacing(7),
   },
   button: {

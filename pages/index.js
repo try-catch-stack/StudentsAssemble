@@ -1,7 +1,4 @@
 import React from "react";
-import { useState } from "react";
-import Container from "@material-ui/core/Container";
-import Typography from "@material-ui/core/Typography";
 import data from "../data.json";
 import Header from "../components/Header/Header";
 import Banner from "../components/Banner";
@@ -16,18 +13,12 @@ export async function getStaticProps() {
     props: { data },
   };
 }
-const useStyles = makeStyles(styles);
 
 export default function Index({ data }) {
-  const dashboardRoutes = [];
-
-  const classes = useStyles();
-
   return (
-    <>
+    <div className="wrapper">
       <Header
         color="transparent"
-        routes={dashboardRoutes}
         brand="StudentsAssemble"
         rightLinks={<HeaderLinks />}
         fixed
@@ -41,6 +32,6 @@ export default function Index({ data }) {
         <SearchData data={data} />
         <Footer />
       </div>
-    </>
+    </div>
   );
 }
