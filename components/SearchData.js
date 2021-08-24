@@ -15,6 +15,7 @@ import Chip from "@material-ui/core/Chip";
 import { Grid } from "@material-ui/core";
 import theme from "../styles/theme";
 import { ThemeProvider } from "@material-ui/core/styles";
+import Hidden from "@material-ui/core/Hidden";
 
 const useStyles = makeStyles((theme) => ({
   main: {
@@ -109,6 +110,7 @@ export const SearchData = ({ data }) => {
         <ThemeProvider theme={(theme) => ({ darkMode: true, ...theme })}>
           <Grid container spacing={0}>
             <Grid item xs={12} sm={4} md={4}>
+              <Hidden xsDown>
               <TextField
                 id="outlined-full-width"
                 label="Search"
@@ -127,6 +129,7 @@ export const SearchData = ({ data }) => {
                 // }}
                 variant="outlined"
               />
+              </Hidden>
             </Grid>
             <Grid item xs={12} sm={4} md={4}></Grid>
             <Grid item xs={12} sm={4} md={4}>
