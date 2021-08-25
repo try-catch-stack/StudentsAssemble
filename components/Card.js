@@ -44,11 +44,12 @@ export default function ImgCard({ cardData }) {
           </CardContent>
           <Box p={1}>
             {tags.map((tag) => {
+              if(tag!="Not in GitHub Dev pack"){
               return (
                 <Box display="inline" mr={1} key={tag}>
                   <Chip variant="outlined" size="small" label={tag} />
                 </Box>
-              );
+              );}
             })}
           </Box>
         </CardActionArea>

@@ -14,7 +14,6 @@ import Select from "@material-ui/core/Select";
 import Chip from "@material-ui/core/Chip";
 import { Grid } from "@material-ui/core";
 import theme from "../styles/theme";
-import { ThemeProvider } from "@material-ui/core/styles";
 import Hidden from "@material-ui/core/Hidden";
 
 const useStyles = makeStyles((theme) => ({
@@ -64,7 +63,7 @@ const tags = [
   "Virtual Events",
   "Security & analytics",
   "Music",
-  "Github Dev pack",
+  "Not in GitHub Dev pack"
 ];
 
 export const SearchData = ({ data }) => {
@@ -87,9 +86,12 @@ export const SearchData = ({ data }) => {
     let selectedTag = event.target.value;
     const searcher = new FuzzySearch(data, ["tags"]);
 
-    if (selectedTag != "All") {
+    if (selectedTag != "All" && selectedTag != "Not in GitHub Dev pack") {
       setSearch("");
       const result = searcher.search(selectedTag);
+      setData(result);
+    } else if (selectedTag == "Not in GitHub Dev pack") {
+      const result = searcher.search("Not in GitHub Dev pack");
       setData(result);
     } else {
       setData(data);
@@ -107,7 +109,6 @@ export const SearchData = ({ data }) => {
   return (
     <div className={classes.main}>
       <Container>
-        <ThemeProvider theme={(theme) => ({ darkMode: true, ...theme })}>
           <Grid container spacing={0}>
             <Grid item xs={12} sm={4} md={4}>
               <Hidden xsDown>
@@ -162,7 +163,6 @@ export const SearchData = ({ data }) => {
               </Box>
             </Grid>
           </Grid>
-        </ThemeProvider>
         <Box className="listStart">
           <List currentdata={currentData} />
         </Box>
