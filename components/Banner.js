@@ -50,10 +50,6 @@ export const Banner = () => {
                 is as easy as registering on their websites with your institute
                 email id and you shall be good to go.
               </h3>
-              <h3 className={classes.body}>
-                I hope this website will help those students who were unaware of
-                these great privileges offered to them.
-              </h3>
               <br />
             </GridItem>
             <GridItem md={6}>
