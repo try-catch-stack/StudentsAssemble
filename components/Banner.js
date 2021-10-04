@@ -46,9 +46,7 @@ export const Banner = () => {
               <h3 className={classes.body}>
                 Once you have got the pack, claiming these offers is as easy as
                 registering on them with your institute email id and you shall
-                be good to go. Once you have got the pack, claiming these offers
-                is as easy as registering on their websites with your institute
-                email id and you shall be good to go.
+                be good to go. 
               </h3>
               <br />
             </GridItem>
