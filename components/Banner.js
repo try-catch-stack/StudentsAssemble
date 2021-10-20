@@ -8,7 +8,7 @@ import Image from "next/image";
 import Hidden from "@material-ui/core/Hidden";
 import Box from "@material-ui/core/Box";
 import Fade from "react-reveal/Fade";
-// isha
+
 export const Banner = () => {
   const useStyles = makeStyles(styles);
   const classes = useStyles();
@@ -48,7 +48,7 @@ export const Banner = () => {
                 registering on them with your institute email id and you shall
                 be good to go. 
               </h3>
-              <br /> <br />
+              <br />
             </GridItem>
             <GridItem md={6}>
               <Hidden mdDown>
