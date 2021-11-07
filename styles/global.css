@@ -5,6 +5,12 @@
   }
 }
 
+@media only screen and (max-width: 360px) {
+  .spacer {
+    font-size: 0.8rem;
+  }
+}
+
 .wrapper {
   background-color: #002233;
 }
@@ -17,6 +23,7 @@
   background-position: center;
   background-size: cover;
   max-height: 100vh;
+  /* min-height: 100vh; */
 }
 
 .spacer2 {

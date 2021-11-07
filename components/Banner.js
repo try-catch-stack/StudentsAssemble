@@ -18,7 +18,7 @@ export const Banner = () => {
       <div className={classes.container}>
         <Fade>
           <GridContainer>
-            <GridItem xs={12} sm={12} md={12} lg={6}>
+            <GridItem xs={12} sm={12} md={6} lg={6}>
               <h1 className={classes.title}>
                 Avail the benefits of your institute email id
               </h1>
@@ -46,18 +46,18 @@ export const Banner = () => {
               <h3 className={classes.body}>
                 Once you have got the pack, claiming these offers is as easy as
                 registering on them with your institute email id and you shall
-                be good to go. 
+                be good to go.
               </h3>
               <br />
             </GridItem>
             <GridItem md={6}>
-              <Hidden mdDown>
+              <Hidden smDown>
                 <Box align="center" justifyContent="center" pl={4}>
-                  <Image
+                  {/* <Image src="/design.gif" alt="Gif" width={400} height={400} /> */}
+                  <img
                     src="/design.gif"
                     alt="Gif"
-                    width="400px"
-                    height="400px"
+                    style={{ width: "80%", marginTop: "auto" }}
                   />
                 </Box>
               </Hidden>

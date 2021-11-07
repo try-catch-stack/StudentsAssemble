@@ -27,15 +27,14 @@ export default function MyApp(props) {
 
   React.useEffect(() => {
     // Remove the server-side injected CSS.
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 500);
     const jssStyles = document.querySelector("#jss-server-side");
     if (jssStyles) {
       jssStyles.parentElement.removeChild(jssStyles);
     }
-    setLoading(true);
-    setTimeout(() => {
-      setLoading(false);
-    }, 1000);
-    Router.events.on("routeChangeComplete");
   }, []);
 
   return loading ? (
