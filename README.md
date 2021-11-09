@@ -7,8 +7,7 @@ Visit [StudentsAssemble](https://students-assemble.tech)
 
 I hope this website will help those students who were unaware of these great privileges offered to them.
 
-To contribute , you can either download or fork the repository.
-
+To contribute , you can fork the repository and clone it to your device.
 To install it and run:
 
 ```sh
