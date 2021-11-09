@@ -24,7 +24,10 @@ export default function Footer() {
           colors="primary:#121331,secondary:#08a88a"
           style={{ width: "20px", height: "20px" }}
         ></lord-icon>{" "}
-        by Danish
+        by{" "}
+        <a href="https://danishmirza.netlify.app" target="_blank">
+          Danish
+        </a>
         <Typography variant="h5" align="center" display="block">
           <a href="https://github.com/try-catch-stack" target="_blank">
             <i className="fab fa-github" style={{ margin: "10px 10px" }} />
