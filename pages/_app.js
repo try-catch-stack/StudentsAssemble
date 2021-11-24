@@ -10,7 +10,7 @@ import "../styles/global.css";
 
 export default function MyApp(props) {
   const { Component, pageProps } = props;
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
 
   const darkTheme = createTheme({
     palette: {
@@ -27,7 +27,6 @@ export default function MyApp(props) {
 
   React.useEffect(() => {
     // Remove the server-side injected CSS.
-    setLoading(true);
     setTimeout(() => {
       setLoading(false);
     }, 500);

@@ -40,7 +40,7 @@ const bannerStyle = {
     color: "#3DB2FF",
   },
   body: {
-    // fontFamily: "Fira Sans",
+    fontFamily: "Open Sans",
   },
 };
 
