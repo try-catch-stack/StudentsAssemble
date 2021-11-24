@@ -144,7 +144,7 @@ export const SearchData = ({ data }) => {
                 variant="outlined"
               />
             </Hidden>
-            <Hidden smUp>
+            {/* <Hidden smUp>
               <Box className={classes.searchField}>
                 <input
                   type="text"
@@ -156,7 +156,7 @@ export const SearchData = ({ data }) => {
                   spellCheck="false"
                 />
               </Box>
-            </Hidden>
+            </Hidden> */}
           </Grid>
           <Grid item xs={12} sm={4} md={4}></Grid>
           <Grid item xs={12} sm={4} md={4}>
