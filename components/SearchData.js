@@ -41,6 +41,19 @@ const useStyles = makeStyles((theme) => ({
       width: "100%",
     },
   },
+  searchField: {
+    [theme.breakpoints.down("sm")]: {
+      paddingLeft: theme.spacing(4),
+      paddingRight: theme.spacing(4),
+      width: "100%",
+    },
+  },
+  searchInputField: {
+    [theme.breakpoints.down("sm")]: {
+      width: "100%",
+      height: "32px",
+    },
+  },
   formControl: {
     margin: theme.spacing(1),
     paddingBottom: theme.spacing(2),
@@ -63,7 +76,7 @@ const tags = [
   "Virtual Events",
   "Security & analytics",
   "Music",
-  "Not in GitHub Dev pack"
+  "Not in GitHub Dev pack",
 ];
 
 export const SearchData = ({ data }) => {
@@ -109,9 +122,9 @@ export const SearchData = ({ data }) => {
   return (
     <div className={classes.main}>
       <Container>
-          <Grid container spacing={0}>
-            <Grid item xs={12} sm={4} md={4}>
-              <Hidden xsDown>
+        <Grid container spacing={0}>
+          <Grid item xs={12} sm={4} md={4}>
+            <Hidden xsDown>
               <TextField
                 id="outlined-full-width"
                 label="Search"
@@ -130,39 +143,50 @@ export const SearchData = ({ data }) => {
                 // }}
                 variant="outlined"
               />
-              </Hidden>
-            </Grid>
-            <Grid item xs={12} sm={4} md={4}></Grid>
-            <Grid item xs={12} sm={4} md={4}>
-              <Box className={classes.selectMenu}>
-                <FormControl className={classes.formControl}>
-                  <InputLabel id="demo-controlled-open-select-label">
-                    Tags
-                  </InputLabel>
-                  <Select
-                    labelId="demo-controlled-open-select-label"
-                    id="demo-controlled-open-select"
-                    open={open}
-                    onClose={handleClose}
-                    onOpen={handleOpen}
-                    value={tag}
-                    onChange={handleChange}
-                  >
-                    <MenuItem value="All">
-                      <em>All</em>
-                    </MenuItem>
-                    {tags.map((tag) => {
-                      return (
-                        <MenuItem value={tag} key={tag}>
-                          <Chip variant="outlined" label={tag} />
-                        </MenuItem>
-                      );
-                    })}
-                  </Select>
-                </FormControl>
+            </Hidden>
+            <Hidden smUp>
+              <Box className={classes.searchField}>
+                <input
+                  type="text"
+                  name="search"
+                  placeholder="Search"
+                  value={searchInput}
+                  onChange={search}
+                  className={classes.searchInputField}
+                  spellCheck="false"
+                />
               </Box>
-            </Grid>
+            </Hidden>
           </Grid>
+          <Grid item xs={12} sm={4} md={4}></Grid>
+          <Grid item xs={12} sm={4} md={4}>
+            <Box className={classes.selectMenu}>
+              <FormControl className={classes.formControl}>
+                <InputLabel id="controlled-open-select-label">Tags</InputLabel>
+                <Select
+                  labelId="controlled-open-select-label"
+                  id="controlled-open-select"
+                  open={open}
+                  onClose={handleClose}
+                  onOpen={handleOpen}
+                  value={tag}
+                  onChange={handleChange}
+                >
+                  <MenuItem value="All">
+                    <em>All</em>
+                  </MenuItem>
+                  {tags.map((tag) => {
+                    return (
+                      <MenuItem value={tag} key={tag}>
+                        <Chip variant="outlined" label={tag} />
+                      </MenuItem>
+                    );
+                  })}
+                </Select>
+              </FormControl>
+            </Box>
+          </Grid>
+        </Grid>
         <Box className="listStart">
           <List currentdata={currentData} />
         </Box>

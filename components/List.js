@@ -57,6 +57,7 @@ export default function List({ currentdata }) {
                   justifyContent="center"
                   alignItems="center"
                   key={cardData.id}
+                  mx="auto"
                 >
                   <Grid item sm={12} md={6} key={cardData.id}>
                     <ImgCard cardData={cardData} />
