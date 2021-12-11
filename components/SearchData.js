@@ -41,19 +41,6 @@ const useStyles = makeStyles((theme) => ({
       width: "100%",
     },
   },
-  searchField: {
-    [theme.breakpoints.down("sm")]: {
-      paddingLeft: theme.spacing(4),
-      paddingRight: theme.spacing(4),
-      width: "100%",
-    },
-  },
-  searchInputField: {
-    [theme.breakpoints.down("sm")]: {
-      width: "100%",
-      height: "32px",
-    },
-  },
   formControl: {
     margin: theme.spacing(1),
     paddingBottom: theme.spacing(2),

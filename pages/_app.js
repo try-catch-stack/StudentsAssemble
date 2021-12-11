@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import PropTypes from "prop-types";
 import Head from "next/head";
+import Script from "next/script";
 import { ThemeProvider, createTheme } from "@material-ui/core/styles";
 import CssBaseline from "@material-ui/core/CssBaseline";
-import Router from "next/router";
 import SyncLoader from "react-spinners/SyncLoader";
 
 import "../styles/global.css";
@@ -50,22 +50,43 @@ export default function MyApp(props) {
       <SyncLoader color={"#170055"} loading={loading} size={35} />
     </div>
   ) : (
-    <React.Fragment>
-      <Head>
-        <title>Students Assemble</title>
-        <meta
-          name="viewport"
-          content="minimum-scale=1, initial-scale=1, width=device-width"
-        />
-      </Head>
-      <ThemeProvider theme={darkTheme}>
-        {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
-        <CssBaseline />
-        <Component {...pageProps} />
-      </ThemeProvider>
-    </React.Fragment>
+    <>
+      <Script
+        strategy="lazyOnload"
+        src={`https://www.googletagmanager.com/gtag/js?id=G-ELT8XPQCQB`}
+      />
+      <Script strategy="lazyOnload">{`window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-ELT8XPQCQB');`}</Script>
+      <React.Fragment>
+        <Head>
+          <title>Students Assemble</title>
+          <meta
+            name="viewport"
+            content="minimum-scale=1, initial-scale=1, width=device-width"
+          />
+        </Head>
+        <ThemeProvider theme={darkTheme}>
+          {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
+          <CssBaseline />
+          <Component {...pageProps} />
+        </ThemeProvider>
+      </React.Fragment>
+    </>
   );
 }
+
+// <!-- Global site tag (gtag.js) - Google Analytics -->
+// <script async src="https://www.googletagmanager.com/gtag/js?id=G-ELT8XPQCQB"></script>
+// <script>
+// window.dataLayer = window.dataLayer || [];
+// function gtag(){dataLayer.push(arguments);}
+// gtag('js', new Date());
+
+// gtag('config', 'G-ELT8XPQCQB');
+// </script>
 
 MyApp.propTypes = {
   Component: PropTypes.elementType.isRequired,
