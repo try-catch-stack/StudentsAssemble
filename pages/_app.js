@@ -69,16 +69,6 @@ export default function MyApp(props) {
   );
 }
 
-// <!-- Global site tag (gtag.js) - Google Analytics -->
-// <script async src="https://www.googletagmanager.com/gtag/js?id=G-ELT8XPQCQB"></script>
-// <script>
-// window.dataLayer = window.dataLayer || [];
-// function gtag(){dataLayer.push(arguments);}
-// gtag('js', new Date());
-
-// gtag('config', 'G-ELT8XPQCQB');
-// </script>
-
 MyApp.propTypes = {
   Component: PropTypes.elementType.isRequired,
   pageProps: PropTypes.object.isRequired,
