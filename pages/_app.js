@@ -51,15 +51,6 @@ export default function MyApp(props) {
     </div>
   ) : (
     <>
-      <Script
-        strategy="lazyOnload"
-        src={`https://www.googletagmanager.com/gtag/js?id=G-ELT8XPQCQB`}
-      />
-      <Script strategy="lazyOnload">{`window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-ELT8XPQCQB');`}</Script>
       <React.Fragment>
         <Head>
           <title>Students Assemble</title>
