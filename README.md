@@ -7,10 +7,13 @@ Visit [StudentsAssemble](https://students-assemble.tech)
 
 I hope this website will help those students who were unaware of these great privileges offered to them.
 
-To contribute , you can fork the repository and clone it to your device.
-To install it and run:
-
+## Setup the development environment
+1) Install the packages using npm
 ```sh
 npm install
+```
+2) Start the development server
+```sh
 npm run dev
 ```
+The development server should now be up and running on http://locahost:3000 .
