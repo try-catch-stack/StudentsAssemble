@@ -80,8 +80,8 @@
         "id": 7,
         "name": "Apple Education store",
         "link": "https://www.apple.com/in/shop/education-pricing",
-        "img": "/appleeducation.png",
-        "desc": "Apple Education store for university students",
+        "img": "/appleeducation.jpg",
+        "desc": "Apple's store for university students",
         "benefit": "Get great discounts on Macbooks and iPads with the Apple's education pricing.",
         "tags": [
             "Productivity",
@@ -376,19 +376,6 @@
     },
     {
         "id": 31,
-        "name": "Google Drive",
-        "link": "https://edu.google.com/products/workspace-for-education/education-fundamentals/",
-        "img": "/googledrive.png",
-        "desc": "Google Drive is a cloud file storage and synchronization service developed by Google.",
-        "benefit": "Unlimited amount of storage on Google Drive for free. ",
-        "tags": [
-            "Productivity",
-            "Cloud",
-            "Not in GitHub Dev pack"
-        ]
-    },
-    {
-        "id": 32,
         "name": "GitKraken",
         "link": "https://www.gitkraken.com/github-student-developer-pack",
         "img": "/gitkraken.jpg",
@@ -400,7 +387,7 @@
         ]
     },
     {
-        "id": 33,
+        "id": 32,
         "name": "ICONS8",
         "link": "https://icons8.com/github-students",
         "img": "/icons8.jpg",
@@ -412,7 +399,7 @@
         ]
     },
     {
-        "id": 34,
+        "id": 33,
         "name": "stripe",
         "link": "https://stripe.com/en-in",
         "img": "/stripe.jpg",
@@ -424,7 +411,7 @@
         ]
     },
     {
-        "id": 35,
+        "id": 34,
         "name": "Interview Cake",
         "link": "https://www.interviewcake.com/github-students",
         "img": "/interview.jpg",
@@ -436,7 +423,7 @@
         ]
     },
     {
-        "id": 36,
+        "id": 35,
         "name": "pageclip",
         "link": "https://pageclip.co/github-students",
         "img": "/pageclip.jpg",
@@ -444,6 +431,18 @@
         "benefit": "Free basic plan while you are a student.",
         "tags": [
             "Infrastructure & APIs",
+            "GitHub Dev pack"
+        ]
+    },
+    {
+        "id": 36,
+        "name": "JETBRAINS",
+        "link": "https://www.jetbrains.com/community/education/",
+        "img": "/jetbrains.jpg",
+        "desc": "Professional desktop IDEs: IntelliJ IDEA, PyCharm, and more.",
+        "benefit": "A free subscription for students, to be renewed annually.",
+        "tags": [
+            "Developer tools",
             "GitHub Dev pack"
         ]
     },
@@ -1339,18 +1338,6 @@
         "benefit": "Designer package for free for 1 year & discounted upgrade offers.",
         "tags": [
             "Cloud",
-            "GitHub Dev pack"
-        ]
-    },
-    {
-        "id": 109,
-        "name": "JETBRAINS",
-        "link": "https://www.jetbrains.com/community/education/",
-        "img": "/jetbrains.jpg",
-        "desc": "Professional desktop IDEs: IntelliJ IDEA, PyCharm, and more.",
-        "benefit": "A free subscription for students, to be renewed annually.",
-        "tags": [
-            "Developer tools",
             "GitHub Dev pack"
         ]
     }
