@@ -78,14 +78,15 @@
     },
     {
         "id": 7,
-        "name": "JETBRAINS",
-        "link": "https://www.jetbrains.com/community/education/",
-        "img": "/jetbrains.jpg",
-        "desc": "Professional desktop IDEs: IntelliJ IDEA, PyCharm, and more.",
-        "benefit": "A free subscription for students, to be renewed annually.",
+        "name": "Apple Education store",
+        "link": "https://www.apple.com/in/shop/education-pricing",
+        "img": "/apple.jpg",
+        "desc": "Apple's store for university students",
+        "benefit": "Get great discounts on Macbooks and iPads with the Apple's education pricing.",
         "tags": [
+            "Productivity",
             "Developer tools",
-            "GitHub Dev pack"
+            "Not in GitHub Dev pack"
         ]
     },
     {
@@ -1340,5 +1341,17 @@
             "Cloud",
             "GitHub Dev pack"
         ]
-    }
+    },
+    {
+        "id": 109,
+        "name": "JETBRAINS",
+        "link": "https://www.jetbrains.com/community/education/",
+        "img": "/jetbrains.jpg",
+        "desc": "Professional desktop IDEs: IntelliJ IDEA, PyCharm, and more.",
+        "benefit": "A free subscription for students, to be renewed annually.",
+        "tags": [
+            "Developer tools",
+            "GitHub Dev pack"
+        ]
+    },
 ]
